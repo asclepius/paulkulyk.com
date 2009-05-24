@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -3em; /* the bottom margin is the negative value of the footer's height */
+}
+
+.footer, .push {
+	height: 3em; /* .push must be the same height as .footer */
+}
+
+body {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+	padding: 0;
+	font-family: "Trebuchet MS", Helvetica, Arial sans-serif;
+  text-align: center;
+  color: #888888;
+}
+
+a {
+  color: #268ED4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  border: 0;
+}
+
+.footer .contact-info {
+  font-weight: bold;
+  padding: .2em;
+}
+
+.copyright {
+  font-size: 70%;
+}
+
+.arenas-of-awesome {
+  padding-top: 100px;
+}
+
+.arenas-of-awesome li {
+  list-style-type: none;
+  float: left;
+  padding: 0 2em;
+}
+
+.arenas-of-awesome img.mega {
+  padding-bottom: 1em;
+}
