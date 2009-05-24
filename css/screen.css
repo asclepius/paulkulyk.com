@@ -1,30 +1,38 @@
 * {
 	margin: 0;
+	padding: 0;
 }
 
 html, body {
 	height: 100%;
 }
 
-.wrapper {
+#content-wrapper {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
 	margin: 0 auto -3em; /* the bottom margin is the negative value of the footer's height */
 }
 
-.footer, .push {
+#footer, #push {
 	height: 3em; /* .push must be the same height as .footer */
 }
 
 body {
-  width: 800px;
+  background-color: white;
+  width: 40em;
   margin-left: auto;
   margin-right: auto;
-	padding: 0;
 	font-family: "Trebuchet MS", Helvetica, Arial sans-serif;
-  text-align: center;
-  color: #888888;
+  font-size-adjust: none;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #666666;
+}
+
+p {
+  margin: 1em 0;
 }
 
 a {
@@ -40,25 +48,96 @@ img {
   border: 0;
 }
 
-.footer .contact-info {
+hr {
+  -moz-background-clip: border;
+  -moz-background-inline-policy: continuous;
+  -moz-background-origin: padding;
+  background: #BBBBBB none repeat scroll 0 0;
+  border: 0 none;
+  height: 1px;
+}
+
+#header {
+  padding-top: .8em;
+}
+
+#header ul {
+  list-style-type: none;
+}
+
+.header-section { 
+  float: left;
+}
+
+.header-section.search {
+  float: right;
+  text-align: right;
+}
+
+.header-icon {
+  float: left;
+}
+
+ul.header-links {
+  float: left;
+  padding-left: .6em;
+  padding-right: 3em;
+  text-align: left;
+  font-size: .8em;
+}
+
+ul.header-links li {
+  padding-bottom: 1em;
+}
+
+#content {
+  border-top: 1px solid #999;
+  padding-top: 1em;
+  font-size: small;
+}
+
+#content p, #content blockquote {
+  line-height:1.5em;
+}
+
+#content img.inline-left {
+  float: left;
+  margin: .3em 1em 0 0;
+}
+
+#footer {
+  text-align: center;
+}
+
+#footer p {
+  margin: 0;
+}
+
+#contact-info {
   font-weight: bold;
   padding: .2em;
 }
 
-.copyright {
+#copyright {
   font-size: 70%;
+  color: #888888;
 }
 
-.arenas-of-awesome {
+#homepage {
+  width: 780px;
+}
+
+#arenas-of-awesome {
+  text-align: center;
   padding-top: 100px;
 }
 
-.arenas-of-awesome li {
+#arenas-of-awesome li {
   list-style-type: none;
   float: left;
   padding: 0 2em;
 }
 
-.arenas-of-awesome img.mega {
+#arenas-of-awesome img.mega {
   padding-bottom: 1em;
 }
