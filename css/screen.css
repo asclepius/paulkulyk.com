@@ -28,7 +28,7 @@ body {
   font-style: normal;
   font-variant: normal;
   font-weight: normal;
-  color: #666666;
+  color: #333;
 }
 
 p {
@@ -96,6 +96,10 @@ ul.header-links li {
   font-size: small;
 }
 
+#content h2, #content h3 {
+  margin: .5em 0;
+}
+
 #content p, #content blockquote {
   line-height:1.5em;
 }
@@ -103,6 +107,27 @@ ul.header-links li {
 #content img.inline-left {
   float: left;
   margin: .3em 1em 0 0;
+}
+
+#content pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+#content code {
+  background-color:#EEEEFF;
+  border:1px solid #DDDDDD;
+  font-size:95%;
+  padding:0 0.2em;
+}
+
+#content pre code {
+  border: none;
+}
+
+#content ul, #post ol {
+  margin-left: 1.5em;
 }
 
 #footer {
@@ -140,4 +165,11 @@ ul.header-links li {
 
 #arenas-of-awesome img.mega {
   padding-bottom: 1em;
+}
+
+#post .published_on {
+	margin-bottom: 1em;
+	font-size: .8em;
+	font-weight: normal;
+	display: block;
 }
