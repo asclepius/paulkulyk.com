@@ -1,0 +1,7 @@
+--- 
+wordpress_id: 55
+title: Getting *Updated* with Grails - Updated Source Code Available for Grails 0.4.2
+wordpress_url: http://jasonrudolph.com/blog/2007/03/13/getting-updated-with-grails-updated-source-code-available-for-grails-042/
+layout: post
+---
+As you might have heard, [Grails is on a roll](http://jasonrudolph.com/blog/2007/03/12/grails-is-on-the-move/).  And with the recent release of Grails 0.4.2, it&#39;s time for some updated source code to accompany [Getting Started with Grails](http://infoq.com/minibooks/grails).  You won&#39;t find any drastic changes in the RaceTrack code, but for those working through the book with [Grails 0.4.2](http://dist.codehaus.org/grails/grails-bin-0.4.2.tar.gz), you may find comfort in knowing that the code you&#39;re developing as you work through the book should exactly match the  [updated sample code](http://jasonrudolph.com/downloads/gswg/gswg_source_0_4_2.zip).  In addition to the [source code](http://jasonrudolph.com/downloads/gswg/ &quot;Source Code for Getting Started with Grails&quot;), I&#39;ve also published a short (thankfully) [errata page](http://jasonrudolph.com/gswg_errata.html &quot;Errata for Getting Started with Grails&quot;) and [FAQ](http://jasonrudolph.com/gswg_faq.html &quot;Frequently Asked Questions about Getting Started with Grails&quot;).  If you notice any glitches or have any questions, please feel free to [drop me a line](mailto:contact@jasonrudolph.com).  Enjoy.

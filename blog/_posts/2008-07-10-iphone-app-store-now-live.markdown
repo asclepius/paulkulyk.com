@@ -1,0 +1,11 @@
+--- 
+wordpress_id: 185
+title: iPhone App Store Now Live
+wordpress_url: http://jasonrudolph.com/blog/?p=185
+layout: post
+---
+As of 8:55 EDT, there's no *direct* link to the store just yet, but you can "hack" your way in.  Just search the iTunes store for the free iTunes Remote app named simply, "Remote".  Click *Get App*, wait for it to download, and voil&agrave;, there's the App Store in the sidebar.  
+
+[![20080710 App Store Thumb](http://jasonrudolph.com/blog/wp-content/uploads/20080710-app-store-thumb.png)](http://jasonrudolph.com/blog/wp-content/uploads/20080710-app-store.png "")
+
+Sweet!
