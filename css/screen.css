@@ -167,9 +167,18 @@ ul.header-links li {
   padding-bottom: 1em;
 }
 
-#post .published_on {
+.published_on {
 	margin-bottom: 1em;
 	font-size: .8em;
 	font-weight: normal;
 	display: block;
+}
+
+.post-list {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.post-list .title {
+  font-size: 120%;
 }
