@@ -45,11 +45,11 @@ Finished in 0.00024 seconds.
 1 tests, 1 assertions, 0 failures, 0 errors</pre>
 <br/>
 
-[![Example 1 - 100% Line Coverage](http://jasonrudolph.com/blog/wp-content/uploads/200806-code_coverage_levels_1_thumb.png)](http://jasonrudolph.com/blog/wp-content/uploads/200806-code_coverage_levels_1.png)
+[![Example 1 - 100% Line Coverage](/resources/200806-code_coverage_levels_1_thumb.png)](/resources/200806-code_coverage_levels_1.png)
 
 The coverage report assures us that our "test suite" has executed every line of code, and we've therefore achieved 100% line coverage (referred to as "CO" coverage by rcov).  Before we celebrate, let's consider what it would mean to simply reformat the code inside the <code>#max</code> method, without changing its actual behavior.  By spreading the if-then-else statement across several lines, our line coverage suddenly becomes less admirable.
 
-<a name="Example2">[![Example 2 - 66.7% Line Coverage](http://jasonrudolph.com/blog/wp-content/uploads/200806-code_coverage_levels_2_thumb.png)](http://jasonrudolph.com/blog/wp-content/uploads/200806-code_coverage_levels_2.png)</a>
+<a name="Example2">[![Example 2 - 66.7% Line Coverage](/resources/200806-code_coverage_levels_2_thumb.png)](/resources/200806-code_coverage_levels_2.png)</a>
 
 Of course, in reality, our test suite has been lacking all along.  In both examples above, there are two possible branches of execution, but our test suite only exercises one of those branches.  By ensuring that our test suite exercises both branches, we can easily make our way back up to 100% line coverage.  
 
@@ -69,7 +69,7 @@ class MathTest < Test::Unit::TestCase
 end</pre>
 <br/>
 
-[![Example 3 - Back to 100% Line Coverage](http://jasonrudolph.com/blog/wp-content/uploads/200806-code_coverage_levels_3_thumb.png)](http://jasonrudolph.com/blog/wp-content/uploads/200806-code_coverage_levels_3.png)
+[![Example 3 - Back to 100% Line Coverage](/resources/200806-code_coverage_levels_3_thumb.png)](/resources/200806-code_coverage_levels_3.png)
 
 As we saw above, while line coverage analysis certainly shows us when our test suite *fails* to execute all lines of our code, 100% line coverage doesn't necessarily mean that we have a comprehensive test suite.  **Branch coverage** analysis takes us a bit closer. [1]
 
@@ -93,7 +93,7 @@ public class MathTest extends TestCase {
 }</pre>
 <br/>
 
-[![Example 4 - 100% Line Coverage. 50% Branch Coverage.](http://jasonrudolph.com/blog/wp-content/uploads/200806-code_coverage_levels_4_thumb.png)](http://jasonrudolph.com/blog/wp-content/uploads/200806-code_coverage_levels_4.png)
+[![Example 4 - 100% Line Coverage. 50% Branch Coverage.](/resources/200806-code_coverage_levels_4_thumb.png)](/resources/200806-code_coverage_levels_4.png)
 
 While Cobertura gives us proper credit for having 100% line coverage [2], its branch coverage analysis promptly identifies a weak spot in our test suite.  As we saw [above](#Example2), when relying solely on line coverage analysis, we'd have to break our single-line if-else statement into multiple lines in order to detect this hole in our test suite.  Branch coverage analysis, on the other hand, wastes no time in nudging us to exercise the other branch.
 
@@ -110,7 +110,7 @@ public class MathTest extends TestCase {
 }</pre>
 <br/>
 
-[![Example 5 - 100% Line Coverage. 100% Branch Coverage.](http://jasonrudolph.com/blog/wp-content/uploads/200806-code_coverage_levels_5_thumb.png)](http://jasonrudolph.com/blog/wp-content/uploads/200806-code_coverage_levels_5.png)
+[![Example 5 - 100% Line Coverage. 100% Branch Coverage.](/resources/200806-code_coverage_levels_5_thumb.png)](/resources/200806-code_coverage_levels_5.png)
 
 ## The Path Not Taken
 
@@ -140,7 +140,7 @@ public class MathTest extends TestCase {
 
 When we run our tests and analyze our coverage, we see that the two tests above indeed provide 100% line and branch coverage.  
 
-[![Example 6 - 100% Line Coverage. 100% Branch Coverage.](http://jasonrudolph.com/blog/wp-content/uploads/200806-code_coverage_levels_6_thumb.png)](http://jasonrudolph.com/blog/wp-content/uploads/200806-code_coverage_levels_6.png)
+[![Example 6 - 100% Line Coverage. 100% Branch Coverage.](/resources/200806-code_coverage_levels_6_thumb.png)](/resources/200806-code_coverage_levels_6.png)
 
 Despite the perfect score in those coverage types, our test suite is still lacking.  If you look closely at line 4, you'll likely see the bug that our tests failed to catch.  There are a few important scenarios that our tests do not yet address.  Those scenarios represent additional *paths* through the <code>#max</code> method.
 

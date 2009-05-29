@@ -6,7 +6,7 @@ layout: post
 ---
 InfoQ recently posted the [video of my presentation on Grails](http://www.infoq.com/presentations/rudolph-grails-intro "Getting Started with Grails @ QCon SF 2007") from QCon San Francisco.  If 50 slides in 50 minutes sounds a tad formulaic and tired to you, then you're in luck.  Instead, you'll see 50 slides in about 5 minutes, followed immediately by 50 minutes of no-nonsense live coding goodness.
 
-![QCon Logo](http://jasonrudolph.com/blog/wp-content/uploads/200805-qcon-logo.jpg)
+![QCon Logo](/resources/200805-qcon-logo.jpg)
 
 In what could perhaps be described as a series of 12 back-to-back lightning talks, you can see what it takes to go from a blank slate to a deployable Grails app including...
 

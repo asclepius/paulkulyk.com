@@ -6,7 +6,7 @@ layout: post
 ---
 The [Chinese version](http://www.infoq.com/cn/minibooks/grails "Getting Started with Grails - Chinese Translation") of [*Getting Started with Grails*](http://www.infoq.com/minibooks/grails) made its debut last week.  
 
-![GSwG Chinese Cover](http://jasonrudolph.com/blog/wp-content/uploads/gswg-chinese-cover.jpg)
+![GSwG Chinese Cover](/resources/gswg-chinese-cover.jpg)
 
 In fact, InfoQ has been steadily growing their [Chinese Grails portal](http://www.infoq.com/cn/grails "InfoQ Chinese Grails Portal") for quite a while now.  There you'll find updates on the recent Groovy and Grails support in IntelliJ IDEA 7, Guillaume Laforge waxing philosophical on Groovy DSLs, a ([familiar](http://jasonrudolph.com/blog/2006/08/22/grails-ejb3-article-on-infoq/ "Grails + EJB3 Article on InfoQ")) article on using [Grails+EJB3](http://www.infoq.com/cn/news/2007/08/grails-ejb-tutorial "InfoQ: Grails + EJB Domain Models Step-by-Step - Chinese Translation"), and more.
 

@@ -43,11 +43,11 @@ Finished in 0.00029 seconds.
 
 ... and 100% code coverage ...
 
-![100% Test Coverage](http://jasonrudolph.com/blog/wp-content/uploads/20080708_underspecification_coverage_report.png "100% Line Coverage, 100% Branch Coverage, and 100% Path Coverage")
+![100% Test Coverage](/resources/20080708_underspecification_coverage_report.png "100% Line Coverage, 100% Branch Coverage, and 100% Path Coverage")
 
 ... so there's certainly the temptation to declare victory.
 
-![Mission (Not Exactly) Accomplished](http://jasonrudolph.com/blog/wp-content/uploads/20080708_underspecification_mission_accomplished.png "Mission (Not Exactly) Accomplished")
+![Mission (Not Exactly) Accomplished](/resources/20080708_underspecification_mission_accomplished.png "Mission (Not Exactly) Accomplished")
 
 But what about the customer that just spent the last 20 minutes concocting the perfect order?  You know, the one that's exactly $25.00 and not a penny more.  (Sure, he needs professional help, but do you really want to get on the wrong side of someone with that kind of determination and time on their hands?)  If we're looking for our test suite to tell us how the application should respond to a $25.00 order, we're out of luck.  This **underspecification** means that our test suite not only *fails to communicate* how the application should behave in this scenario, our test suite also *fails to give us any confidence* that the application will do the right thing (whatever that may be).
 

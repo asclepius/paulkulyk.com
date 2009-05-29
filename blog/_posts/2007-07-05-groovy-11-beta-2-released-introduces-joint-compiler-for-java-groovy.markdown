@@ -9,7 +9,7 @@ In one fell swoop, the Groovy team and JetBrains have seemingly annihilated the 
 
 <!--more-->
 
-![2007-07-05 Groovy Duke](http://jasonrudolph.com/blog/wp-content/uploads/2007-07-05-groovy-duke.jpg)
+![2007-07-05 Groovy Duke](/resources/2007-07-05-groovy-duke.jpg)
 
 In my review of [Groovy in Action](http://jasonrudolph.com/blog/2007/06/13/infoq-review-groovy-in-action/), I cited this "chicken and egg dependency problem" and its potential workarounds as the one area of the book that I thought could have been stronger.  This topic is just so incredibly important.  Once you're able to use Groovy and Java in the same project with zero concern about whether your build script can work out the dependencies, you're suddenly free to explore Groovy to the fullest extent, to drop it in wherever Java feels the least bit cumbersome.  Doing file I/O and don't want the hassle of the all the plumbing needed to manage file handles and make sure you clean them up properly?  No worries.  Just use [Groovy](http://groovy.codehaus.org/groovy-jdk.html#cls13).  Need to parse XML and cringe at the thought of walking a DOM tree or setting up a SAX parser?  Problem solved.  Just use [Groovy](http://groovy.codehaus.org/Reading+XML+using+Groovy's+XmlSlurper).  Need closures and don't want to wait until Java 7?  Ha!  Java has closures *today*!  Just use [Groovy](http://groovy.codehaus.org/Closures).
                                                              

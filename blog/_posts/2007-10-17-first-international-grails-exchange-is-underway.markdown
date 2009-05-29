@@ -6,7 +6,7 @@ layout: post
 ---
 After a HUGE week of Groovy and Grails news, the momentum culminates today at the [first International Grails eXchange in London](http://grails-exchange.com).  
 
-![20071017 Grails Exchange Logo](http://jasonrudolph.com/blog/wp-content/uploads/20071017-grails-exchange-logo.png)                                             
+![20071017 Grails Exchange Logo](/resources/20071017-grails-exchange-logo.png)                                             
 
 In case you missed it, the past week has offered announcements including...                                                                                                                
 

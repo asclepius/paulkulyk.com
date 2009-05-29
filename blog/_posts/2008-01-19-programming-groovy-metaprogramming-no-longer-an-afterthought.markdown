@@ -6,7 +6,7 @@ layout: post
 ---
 I recently finished a tech review of [Venkat Subramaniam's](http://agiledeveloper.com/blog/ "Agile Developer - Venkat Subramaniam's Blog") upcoming book from the Pragmatic Programmers, [*Programming Groovy: Dynamic Productivity for the Java Developer*](http://pragprog.com/titles/vslg "The Pragmatic Bookshelf | Programming Groovy"), and I was pleased to find that Venkat included a healthy dose of "[the red pill](http://groovygrails.com/gg/conference/speaker?speakerId=18&amp;showId=131#pr8897 "Scott Davis at 2GX - Groovy, The Red Pill: Metaprogramming, the Groovy Way to Blow a Buttoned-Down Java Developer's Mind")."         
 
-![2008-01-20 Programming Groovy Cover](http://jasonrudolph.com/blog/wp-content/uploads/2008-01-20-programming-groovy-cover.jpg)
+![2008-01-20 Programming Groovy Cover](/resources/2008-01-20-programming-groovy-cover.jpg)
 
 Scott Davis's [red pill/blue pill](http://groovygrails.com/gg/conference/speaker?speakerId=18&amp;showId=131#pr8896 "Scott Davis at 2GX - Groovy, the Blue Pill: Writing Next Generation Java Code in Groovy") metaphor is spot on ...  
 

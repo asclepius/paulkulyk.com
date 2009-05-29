@@ -41,7 +41,7 @@ end</pre>
 
 We'll use [rcov](http://eigenclass.org/hiki.rb?rcov#l6 "eigenclass - rcov: code coverage for Ruby") to assess the results.
 
-[![Example 1](http://jasonrudolph.com/blog/wp-content/uploads/200806-incidental-coverage.png)](http://jasonrudolph.com/blog/wp-content/uploads/200806-app-controllers-products_controller_rb.html)
+[![Example 1](/resources/200806-incidental-coverage.png)](/resources/200806-app-controllers-products_controller_rb.html)
 
 And just like that, we have 100% code coverage for the <code>#index</code> method. [2] In this case though, that clearly means nothing more than the fact that we *encountered* 100% of the lines in the method.  When code coverage is that easily achieved, it hardly seems cause for celebration.  To get any real value from the test, we need to actually assert that we're getting the expected results.  Until we do so, we have nothing more than **incidental coverage**. [3]
 
@@ -129,7 +129,7 @@ If your goal is instead to develop a comprehensive test suite to A) validate you
 
 [1] Sure, you know that the line executes without causing the application to crash (at least for *this* set of inputs), but does a lack of crashing really constitute success?  Not likely.
 
-[2] While we have 100% line coverage for the <code>#index</code> method, we don't have 100% coverage for the <code>ProductsController</code> class as a whole.  As the [full coverage report shows](http://jasonrudolph.com/blog/wp-content/uploads/200806-app-controllers-products_controller_rb.html), the tests provided with the Rails scaffolding do not cover the exception cases in the <code>#create</code> and <code>#update</code> methods.
+[2] While we have 100% line coverage for the <code>#index</code> method, we don't have 100% coverage for the <code>ProductsController</code> class as a whole.  As the [full coverage report shows](/resources/200806-app-controllers-products_controller_rb.html), the tests provided with the Rails scaffolding do not cover the exception cases in the <code>#create</code> and <code>#update</code> methods.
 
 [3] Incidental coverage is just as valuable as that guy that puts in "face time" at the office.  He's physically present at least 8 hours every day.  People *see* him there.  He's *at the office*.  He must be doing *something*.  Right?  
 

@@ -6,7 +6,7 @@ layout: post
 ---
 As an extension to [last year's Grails + EJB3 tutorial on InfoQ.com](http://www.infoq.com/news/grails-ejb-tutorial "InfoQ Article: Grails + EJB Domain Models Step-by-Step"), I had the pleasure today of [presenting](http://www.grails-exchange.com/jason-rudolph "Grails eXchange 2007 : Jason Rudolph : EJB3 Entities and Grails") an updated demo on this topic, showing just how easy it is to pimp out your EJB3 entity beans to include all the slick dynamic goodness we've come to know and love from traditional Grails domain classes.  
 
- ![Groovy Duke - Pimp Extraordinaire](http://jasonrudolph.com/blog/wp-content/uploads/20071017-uncle-duke-logo.png)
+ ![Groovy Duke - Pimp Extraordinaire](/resources/20071017-uncle-duke-logo.png)
 
 But as much as I enjoy infusing boring, statically-typed EJB3 POJOs with GORM-powered productivity, I'm recently finding myself *more* excited about the ability to implement your Grails domain classes *with any technology you like*, and then simply expecting it all to just work.  The result?  Implementation-agnostic domain classes and the flexibility to use whichever technology is best suited for the task at hand.  We're free to choose...
 

@@ -10,4 +10,4 @@ A *local* talk?  I know. I know. It sounds crazy, but the commute should be quit
 
 The meeting starts at 6:30 PM.  Hope to see you [there](http://trijug.org/meetinginfo.jsp?date=2007-06)!  
 
-![20070612 TriJUG Logo](http://jasonrudolph.com/blog/wp-content/uploads/20070612-trijug-logo.jpg)
+![20070612 TriJUG Logo](/resources/20070612-trijug-logo.jpg)

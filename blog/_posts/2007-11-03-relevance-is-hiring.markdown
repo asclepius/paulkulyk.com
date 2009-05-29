@@ -22,7 +22,7 @@ And [giving back](http://thinkrelevance.com/open-source "Open source Fridays").
 
 
 
-![Relevance](http://jasonrudolph.com/blog/wp-content/uploads/20071104-relevance-logo.png)
+![Relevance](/resources/20071104-relevance-logo.png)
 
 
 

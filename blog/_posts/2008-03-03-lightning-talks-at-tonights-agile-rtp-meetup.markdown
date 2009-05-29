@@ -14,4 +14,4 @@ We'll be doing a lightning talk night with a rejectconf twist. What that means i
 
 The meetup gets underway at 6:30 PM.  ([See the Agile RTP site for full details.](http://agile.meetup.com/29/calendar/7277944/ "Lightning Talks -  Agile RTP (ARTp) (Raleigh, NC) - Meetup.com"))  If you're nearby, come on out.  Hope to see you there!
 
-[![20080304 Agile RTP Logo](http://jasonrudolph.com/blog/wp-content/uploads/20080304-agile-rtp-logo.jpg)](http://agile.meetup.com/29/calendar/7277944/ "Lightning Talks -  Agile RTP (ARTp) (Raleigh, NC) - Meetup.com")
+[![20080304 Agile RTP Logo](/resources/20080304-agile-rtp-logo.jpg)](http://agile.meetup.com/29/calendar/7277944/ "Lightning Talks -  Agile RTP (ARTp) (Raleigh, NC) - Meetup.com")

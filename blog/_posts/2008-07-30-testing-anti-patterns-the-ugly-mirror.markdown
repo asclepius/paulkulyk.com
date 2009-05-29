@@ -29,7 +29,7 @@ end</pre>
 
 ... I couldn't help but feel like I was staring right back at the very code that was supposedly being tested.
 
-[![Ahhhhhhhh!](http://jasonrudolph.com/blog/wp-content/uploads/20080729-ugly-mirror.jpg "Image courtesy of Pablo Baslini (flickr.com/98621082@N00)")](http://www.flickr.com/photos/98621082@N00/434585853/ "Image courtesy of Pablo Baslini (flickr.com/98621082@N00)") [2]
+[![Ahhhhhhhh!](/resources/20080729-ugly-mirror.jpg "Image courtesy of Pablo Baslini (flickr.com/98621082@N00)")](http://www.flickr.com/photos/98621082@N00/434585853/ "Image courtesy of Pablo Baslini (flickr.com/98621082@N00)") [2]
 
 This **ugly mirror** of the production code leaves much to be desired.  Sure, thanks to the name of the test, we get the general idea that <code>to_s</code> will output some combination of the user's name and e-mail address.  But when we look at the assertion on line 6, we're forced to mentally reverse engineer the code in order to see through to the underlying requirement.  When it comes to quickly and clearly communicating the intent of the underlying code, this test falls far short of its potential.  As it's implemented above, we're probably better off reviewing the production code itself than bothering to look at the test at all.
 

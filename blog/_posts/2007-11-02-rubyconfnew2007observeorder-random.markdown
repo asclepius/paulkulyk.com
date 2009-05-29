@@ -4,7 +4,7 @@ title: "RubyConf.new(\"2007\").observe(:order => :random)    "
 wordpress_url: http://jasonrudolph.com/blog/2007/11/02/rubyconfnew2007observeorder-random/
 layout: post
 ---
-![Ruby Logo](http://jasonrudolph.com/blog/wp-content/uploads/20071102-ruby-logo.gif)
+![Ruby Logo](/resources/20071102-ruby-logo.gif)
 
 * It turns out that hotels prefer that you *not* bring your own bottles of scotch to the bar.  Who knew?
 
@@ -14,7 +14,7 @@ layout: post
 
 * If you show up at RubyConf with a Compaq, apparently you spend the morning calculating the distance to the nearest Apple store.
 
-![Compaq Love](http://jasonrudolph.com/blog/wp-content/uploads/20071102-compaq-love.png)
+![Compaq Love](/resources/20071102-compaq-love.png)
   
 * [David Black](http://dablog.rubypal.com/) reminds the "veeee-gans" that they're special.
 

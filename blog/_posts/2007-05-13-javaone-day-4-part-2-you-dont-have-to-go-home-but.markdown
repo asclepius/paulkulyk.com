@@ -18,7 +18,7 @@ Martin describes Scala as a *union* of functional and OO programming.  This stat
 
 It was cool to see that Martin wasn't afraid to get down and dirty with some good deep Computer Science topics.  Over the course of about 10 minutes, he explained step-by-step how the compiler works to translate from the programmer's initial Scala source code to an expanded (more verbose) source code and then all the way down to Java bytecode.  (Ah.  [CS 571](http://etg08.itc.virginia.edu/cod/servlet/CourseInfo?term=20043&mnemonic=CS&course_nbr=571).  Those were the good ol' days.).  And once compiled, it turns out that Scala's average execution time is not only comparable with Java, it actually *outperforms* Java in in certain (highly parallel) tests.
 
-[![Scala/Java Comparison](http://jasonrudolph.com/blog/wp-content/uploads/20070513-scala-java-comparison-tn.png)](http://jasonrudolph.com/blog/wp-content/uploads/20070513-scala-java-comparison.png) [![Scala Summary](http://jasonrudolph.com/blog/wp-content/uploads/20070513-scala-summary-tn.png)](http://jasonrudolph.com/blog/wp-content/uploads/20070513-scala-summary.png)
+[![Scala/Java Comparison](/resources/20070513-scala-java-comparison-tn.png)](/resources/20070513-scala-java-comparison.png) [![Scala Summary](/resources/20070513-scala-summary-tn.png)](/resources/20070513-scala-summary.png)
 
 ###Declarative Programming: Tighten Enterprise JavaBeans (EJB) 3.0 and JSR 303 Beans Validation 
 Presented by Emmanuel Bernard* (Core Developer at [JBoss](http://jboss.com/) and Lead Developer of [Hibernate Annotations](http://annotations.hibernate.org/) and [Hibernate Validator](http://validator.hibernate.org))

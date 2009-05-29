@@ -57,7 +57,7 @@ And we should always keep the value of code coverage (or any isolated metric for
 
 Not only should we avoid relying on a single metric, we should also be wary of relying too much on a single form (or a single "layer") of testing.  As Luke Francl argues in his [call for more diverse testing](http://railspikes.com/2008/7/11/testing-is-overrated "Rail Spikes: Testing is Overrated"), even the most exhaustive set of unit tests is limited in the scope of defects it can find [1]: 
 
-> ![200810 Testing Layers Venn Diagram](http://jasonrudolph.com/blog/wp-content/uploads/200810_testing_layers_venn_diagram.png)     
+> ![200810 Testing Layers Venn Diagram](/resources/200810_testing_layers_venn_diagram.png)     
 > 
 > Don’t put all your eggs in one basket. The most interesting thing about these defect detection techniques is that they tend to find different errors. Unit testing finds certain errors; manual testing others; usability testing and code reviews still others.
 

@@ -6,7 +6,7 @@ layout: post
 ---
 Muness blogged a photographic [introduction to the Relevance mothership](http://muness.blogspot.com/2008/04/buckets-of-mice.html "Mundane Essays: Buckets of mice"), and Glenn Vanderburg went all meta on us and asked what we could learn from comparing the books in active use on the desks to the less fortunate books relegated to use as monitor stands.<sup>&sect;</sup>
 
-[![200804 Relevance Monitors 1 Thumb](http://jasonrudolph.com/blog/wp-content/uploads/200804-relevance-monitors-1-thumb.png)](http://jasonrudolph.com/blog/wp-content/uploads/200804-relevance-monitors-1.png "Full Size Image")
+[![200804 Relevance Monitors 1 Thumb](/resources/200804-relevance-monitors-1-thumb.png)](/resources/200804-relevance-monitors-1.png "Full Size Image")
 
 Wired?  Erlang.    
 Expired?  RMI.
@@ -16,13 +16,13 @@ Expired?  RMI.
 
 --
 
-[![200804 Relevance Monitors 2 Thumb](http://jasonrudolph.com/blog/wp-content/uploads/200804-relevance-monitors-2-thumb.png)](http://jasonrudolph.com/blog/wp-content/uploads/200804-relevance-monitors-2.png "Full Size Image")    
+[![200804 Relevance Monitors 2 Thumb](/resources/200804-relevance-monitors-2-thumb.png)](/resources/200804-relevance-monitors-2.png "Full Size Image")    
 
 The JDBC API Tutorial is just as interesting as the 2008 Sam's Club Office Products Catalog.
 
 --
 
-[![200804 Relevance Monitors 3 Thumb](http://jasonrudolph.com/blog/wp-content/uploads/200804-relevance-monitors-3-thumb.png)](http://jasonrudolph.com/blog/wp-content/uploads/200804-relevance-monitors-3.png "Full Size Image")
+[![200804 Relevance Monitors 3 Thumb](/resources/200804-relevance-monitors-3-thumb.png)](/resources/200804-relevance-monitors-3.png "Full Size Image")
 
 We'd rather wrestle a grizzly than read even one more paragraph about XML.  
 

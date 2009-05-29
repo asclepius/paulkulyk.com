@@ -6,7 +6,7 @@ layout: post
 ---
 The Groovy community's been busy rolling out a steady stream of holiday goodness for the Java developers of the world:  [Groovy 1.5](http://docs.codehaus.org/display/GROOVY/2007/12/07/Groovy+1.5+released "Groovy 1.5 released") was just released, [Grails 1.0 RC3](http://grails.org/1.0-RC3+Release+Notes "Grails - 1.0-RC3 Release Notes") is out, and now the Prags are prepping two new [Groovy](http://pragprog.com/titles/vslg "Programming Groovy: Dynamic Productivity for the Java Developer by Venkat Subramaniam") [books](http://pragprog.com/titles/sdgrvr "Groovy Recipes: Greasing the Wheels of Java by Scott Davis") for early next year.  And to top things off, the folks behind [NFJS](http://www.nofluffjuststuff.com/ "No Fluff Just Stuff") are hosting a [three-day conference](http://groovygrails.com "Groovy/Grails Experience") with Groovy and Grails experts from all over the world.  
 
-[![2008 2GX Groovy Grails Experience Logo](http://jasonrudolph.com/blog/wp-content/uploads/2008-2gx-groovy-grails-experience-logo.gif)](http://groovygrails.com "Groovy/Grails Experience")
+[![2008 2GX Groovy Grails Experience Logo](/resources/2008-2gx-groovy-grails-experience-logo.gif)](http://groovygrails.com "Groovy/Grails Experience")
 
 The inaugural 2G Experience will take place February 21-23 in Reston, VA, and the [agenda](http://groovygrails.com/gg/conference/schedule?showId=131 "Groovy/Grails Experience - Session Schedule") is slam-packed!  BDD with Andy Glover. DSLs with Venkat Subramaniam. Google Maps with Scott Davis. Metaprogramming with Jeff Brown. A can't-miss JRuby/Groovy smackdown with Neal Ford.  A Grails keynote with Graeme Rocher.  The list goes on...
 

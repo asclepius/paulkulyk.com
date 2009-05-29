@@ -33,12 +33,12 @@ man $1 | col -b | mate</pre>
 <br />
 To see it in action, just use <code>mman</code> anywhere you would have previously used the vanilla <code>man</code> command.
 
-[![Running mman in Terminal to open man page in TextMate](http://jasonrudolph.com/blog/wp-content/uploads/20080314-mman-textmate-thumb.png)](http://jasonrudolph.com/blog/wp-content/uploads/20080314-mman-textmate.png)
+[![Running mman in Terminal to open man page in TextMate](/resources/20080314-mman-textmate-thumb.png)](/resources/20080314-mman-textmate.png)
 
 ## Kicking it up a notch?
 
 That approach has served me well for several months now, but in the course of writing this post, I came across an associated TextMate bundle that some folks may find helpful as well.  The TextMate [Man Pages bundle](http://fisheye2.cenqua.com/changelog/textmate-bundles/trunk/Bundles/Man%20Pages.tmbundle) offers some (minor) syntax highlighting, the ability to open a man page from *within* TextMate, and the ability to use Command + Shift + T (i.e., ["Go To Symbol"](http://macromates.com/textmate/manual/navigation_overview.html#function_pop-up)) to quickly find and access key sections of the man page by name.
 
-[![Showing off the TextMate man page bundle](http://jasonrudolph.com/blog/wp-content/uploads/20080314-mman-with-textmate-bundle-thumb.png)](http://jasonrudolph.com/blog/wp-content/uploads/20080314-mman-with-textmate-bundle.png)      
+[![Showing off the TextMate man page bundle](/resources/20080314-mman-with-textmate-bundle-thumb.png)](/resources/20080314-mman-with-textmate-bundle.png)      
 
 Now go forth and devour some man pages already.

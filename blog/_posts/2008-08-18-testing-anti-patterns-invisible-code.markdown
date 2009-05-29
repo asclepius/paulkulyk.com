@@ -65,7 +65,7 @@ Let's start with a sample Rails app that represents the beginnings of an online 
 
 After installing the [rails_rcov plugin](http://agilewebdevelopment.com/plugins/rails_rcov "Plugins - Rails rcov - Agile Web Development"), we can easily produce a coverage report to see where we currently stand.
 
-[![100% Test Coverage](http://jasonrudolph.com/blog/wp-content/uploads/20080819_invisible_code_coverage_report_1_thumb.png "100% Test Coverage - The Whole Story?")](http://jasonrudolph.com/blog/wp-content/uploads/20080819_invisible_code_coverage_report_1.png)
+[![100% Test Coverage](/resources/20080819_invisible_code_coverage_report_1_thumb.png "100% Test Coverage - The Whole Story?")](/resources/20080819_invisible_code_coverage_report_1.png)
 
 According to the coverage report, we're not aware of any code that isn't touched by at least one test.  But is that really the whole story?  The number of test-related files sure accounts for a small proportion of the overall app.  We can see that we have `test/unit/product_test.rb` and `test/functional/products_controller_test.rb`, but do those two files really encompass all the developer testing needed for this application?
 
@@ -86,7 +86,7 @@ In order for code to show up in a coverage report, we need to instruct the cover
 <pre lang="ruby">require File.expand_path(File.dirname(__FILE__) + "/../lib/product_ftp_importer")</pre>
 <br/>
 
-[![71.7% Test Coverage](http://jasonrudolph.com/blog/wp-content/uploads/20080819_invisible_code_coverage_report_2_thumb.png "71.7% Test Coverage - The Whole Story")](http://jasonrudolph.com/blog/wp-content/uploads/20080819_invisible_code_coverage_report_2.png)
+[![71.7% Test Coverage](/resources/20080819_invisible_code_coverage_report_2_thumb.png "71.7% Test Coverage - The Whole Story")](/resources/20080819_invisible_code_coverage_report_2.png)
 
 It's hard to feel good about 45 lines of untested FTP-processing voodoo, so how can we unearth this **invisible code** as soon as it tries to sneak its way into our app?
 

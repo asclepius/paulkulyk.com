@@ -6,7 +6,7 @@ layout: post
 ---
 Grails 0.6 is in the wild, and watch out...your Grails development is about to get a serious shot in the arm!
 
-![Grails Logo](http://jasonrudolph.com/blog/wp-content/uploads/20070903-grails-logo.jpg)
+![Grails Logo](/resources/20070903-grails-logo.jpg)
 
 Without a doubt, the developer experience was one of the key motivating factors in my original journey to Grails (and away from some Java web frameworks that shall remain nameless).  And somewhat unfortunately, while the [last](http://jasonrudolph.com/blog/2007/01/31/grails-04-hits-the-street/ "Grails 0.4 Hits the Street") [few](http://jasonrudolph.com/blog/2007/05/01/grails-05-shipped-the-cup-overfloweth/ "Grails 0.5 Shipped: The Cup Overfloweth!") releases have been packed with new features and increased modularity, each release has brought with it slower start-up times, more time needed to run tests, etc.  As a framework still on it's way to 1.0, that's probably acceptable, and perhaps even expected, as performance optimizations had not yet been a priority.  But as someone that greatly values the developer experience, and as someone that [regularly stands in front of a room full of developers](http://www.nofluffjuststuff.com/ "No Fluff Just Stuff") while waiting for a demo app to start, the speed bumps in 0.6 are a welcome improvement.    
 

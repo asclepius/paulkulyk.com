@@ -15,7 +15,7 @@ Andres Almiray [interviewed me this week for the Groovy Zone](http://groovy.dzon
 
 For all that and more, check out the [interview](http://groovy.dzone.com/news/jason-rudolph-second-leg-grail "Jason Rudolph: Second Leg of the Grails Race | Groovy Zone") at [Groovy Zone](http://groovy.dzone.com "Groovy Zone | Everything for the Groovy & Grails developer"), a new(ish) and hoppin' community for Groovy and Grails news.
 
-![20080404 DZone Logo](http://jasonrudolph.com/blog/wp-content/uploads/20080404-dzone-logo.gif)
+![20080404 DZone Logo](/resources/20080404-dzone-logo.gif)
 
 (Did I mention that we discuss testing?)
 
