@@ -18,7 +18,7 @@ Pushing each other.
    
 And [giving back](http://thinkrelevance.com/open-source "Open source Fridays"). 
 
-[In the constant pursuit of excellence.](http://thinkrelevance.com/relevance-development "Relevance: How We Develop Software")  
+[In the constant pursuit of excellence.](http://thinkrelevance.com/development "Relevance, Inc. - The Relevance Approach to Development")  
 
 
 

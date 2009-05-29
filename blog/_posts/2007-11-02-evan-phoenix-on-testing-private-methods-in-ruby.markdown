@@ -8,16 +8,19 @@ At RubyConf today, [Stuart Halloway's Refactotum workshop](http://relevancellc.c
 
 To demonstrate, let's assume we have the following (admittedly contrived) [class](http://askaninja.com/ "Ask a Ninja"):
 
-<pre lang="ruby">class Ninja
+<pre lang="ruby">
+class Ninja
   private
     def kill(num_victims)
       "#{num_victims} victims are no longer with us."
     end
-end</pre>         
-&nbsp;         
+end
+</pre>         
+
 So how can we make sure that the private method is doing what we want, and do so while testing it in isolation?  Why not temporarily define a new *public* method that simply passes through to our elusive private method?
 
-<pre lang="ruby">require 'test/unit'
+<pre lang="ruby">
+require 'test/unit'
 
 class NinjaTest < Test::Unit::TestCase
   def test_should_punish_sloppy_coders
@@ -27,15 +30,17 @@ class NinjaTest < Test::Unit::TestCase
     end 
     assert_equal '3 victims are no longer with us.', @ninja.flog_publicly(3)
   end
-end</pre>                         
-&nbsp;         
+end
+</pre>                         
+
 Sweet!
 
-<pre lang="text">src> ruby ninja.rb 
+<pre lang="text">
+$ ruby ninja.rb 
 Loaded suite ninja
 Started
 .
 Finished in 0.000274 seconds.
 
-1 tests, 1 assertions, 0 failures, 0 errors</pre>                         
-&nbsp;
+1 tests, 1 assertions, 0 failures, 0 errors
+</pre>

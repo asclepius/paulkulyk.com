@@ -15,7 +15,7 @@ When using acts\_as\_solr locally, you start and stop Solr via the provided rake
 But then came time for deployment.  Try to run the vanilla `solr:start` task as part of a Capistrano deployment, and you'll quickly be looking for another option.  As you watch your deploy script run, here comes all that same output you've been seeing locally ... but when Cap completes, Solr calls it quits.  We need a way to tell Solr to keep running in the background, even after Cap finishes doing its thing.  
 
 <pre lang="ruby">nohup rake solr:start > #{shared_path}/log/solr.log 2> #{shared_path}/log/solr.err.log</pre>
-&nbsp;    
+
 (Incidentally, you may want to employ this solution for your local Solr instance as well.  After all, that'll be one fewer terminal window cluttering your workspace.)
 
 ## Dude, where's my index?
@@ -43,8 +43,8 @@ So let's steer clear of all that trouble and find an easy way to run Solr on a s
   role :app, 'app.example.com'
   role :solr, 'solr.example.com'
   role :db, 'db.example.com'
-end</pre>
-&nbsp;    
+end
+</pre>
 
 Next, simply define the tasks needed to start and stop Solr on that server, and you're good to go.  (Also notice that we include a task to symlink in the Solr indexes from the release-independent directory discussed above.)  
 
@@ -76,8 +76,8 @@ namespace :solr do
       nohup rake solr:start RAILS_ENV=#{env} > #{shared_path}/log/solr.log 2> #{shared_path}/log/solr.err.log
     CMD
   end
-end</pre>
-&nbsp;    
+end
+</pre>
 
 And with that little bit of setup, you're ready to rock!  (Well, er, as much as one can *rock* to full-text search.)    
 
