@@ -11,13 +11,13 @@ Enter [Streamlined](http://www.streamlinedframework.org/)...
 
 <!--more-->
 
-![2007-06-23 Streamlined Logo](/resources/2007-06-23-streamlined-logo.png)
+![2007-06-23 Streamlined Logo](/resources/20070623-streamlined-logo.png)
 
 ...and enable *all* of those features and more with just a small helping of declarative decoration.  
 
 If a picture's worth a thousand words... 
 
-![2007-06-23 Streamlined Screenshot](/resources/2007-06-23-streamlined-screenshot.png)
+![2007-06-23 Streamlined Screenshot](/resources/20070623-streamlined-screenshot.png)
 
 ...a [screencast](http://www.streamlinedframework.org/pages/screencasts) is easily worth some vast multiple of that.  The application shown above is the result of a whopping 5 minutes of effort, and you can see [Justin Gehtland](http://www.relevancellc.com/about) develop it even more fully (in a nice iterative fashion) over the course of three [screencasts](http://www.streamlinedframework.org/pages/screencasts).  And once you've seen it in action, surely you'll be ready to try it out first-hand. Check out [Matthew Bass's recent tutorial](http://matthewbass.com/2007/05/28/getting-started-with-streamlined-part-1), and you'll have your own Streamlined app up and running in just a few short steps.
 
