@@ -23,8 +23,8 @@ class ProductsControllerTest < ActionController::TestCase
     assert product.name == "Frisbee"
     assert product.price == 5.00
   end
-end</pre>
-<br/>
+end
+</pre>
 
 Whoa!  That sure is a lot going on in a single test case. What exactly is it that we're trying to test here?  Let's take a step back and see if we can figure it out. [1]
 
@@ -41,8 +41,8 @@ For a class called <code>ProductsControllerTest</code>, it sure feels like we're
   def show
     @product = Product.find(params[:id])
   end
-end</pre>
-<br/>
+end
+</pre>
 
 It turns out that our controller code is notably simpler than our test case would have led us to believe.  The <code>#show</code> action does indeed stick to the expected behavior of a controller, and in this case, it's able to provide that behavior in a single line of code (despite the 8 lines of test code currently employed above).  That single line satisfies all of the expectations of the <code>#show</code> action: look up the product with the given ID and place the product object in an instance variable for use by the view.
 
@@ -63,8 +63,8 @@ class ProductsControllerTest < ActionController::TestCase
     assert_response :success 
     assert_equal product, assigns(:product) 
   end 
-end</pre>
-<br/>
+end
+</pre>
 
 In this implementation, we've abstracted away the logic for creating a new product in line 5.  We've defined a helper method for use by any and all tests in our application that have a need to create a new product.  If and when the rules for successfully creating a new product change, we'll update the <code>#create_product</code> method, and we won't have to touch the code in <code>ProductsController</code> or <code>ProductsControllerTest</code> at all. [2] 
 
@@ -80,8 +80,8 @@ In the previous example, we *might* have detected the overspecification by the s
 # and columns used for single table inheritance have been removed.
 def content_columns
   @content_columns ||= columns.reject { |c| c.primary || c.name =~ /(_id|_count)$/ || c.name == inheritance_column }
-end</pre>
-<br/>
+end
+</pre>
 
 To test this method, we'll need a sample <code>ActiveRecord</code> model class.  Let's use the <code>Topic</code> model, which is backed by the following table.
 
@@ -97,8 +97,8 @@ To test this method, we'll need a sample <code>ActiveRecord</code> model class. 
   t.integer  :replies_count, :default => 0
   t.integer  :parent_id
   t.string   :type
-end</pre>
-<br/>
+end
+</pre>
 
 In our first attempt at testing the <code>#content_columns</code> method, we might come up something similar to this:
 
@@ -107,8 +107,8 @@ def test_content_columns
   content_columns      = Topic.content_columns
   content_column_names = content_columns.map {|column| column.name}
   assert_equal %w(title author_name author_email_address written_on bonus_time last_read content approved), content_column_names
-end</pre>
-<br/>
+end
+</pre>
 
 Can you spot the overspecification?  To give you a hint, compare that test to the actual test employed in the <code>ActiveRecord</code> test suite:
 
@@ -118,8 +118,8 @@ def test_content_columns
   content_column_names   = content_columns.map {|column| column.name}
   assert_equal 8, content_columns.length
   assert_equal %w(title author_name author_email_address written_on bonus_time last_read content approved).sort, content_column_names.sort
-end</pre>
-<br/>
+end
+</pre>
 
 If you've ever written a test for something that returns an ordered list of items where the actual order either doesn't matter or isn't guaranteed, you've probably been bitten by this breed of overspecification, and there's a good chance your solution matched the solution used in the <code>ActiveRecord</code> test code above.  Because the <code>#content_columns</code> method doesn't guarantee that the columns will be returned in any particular order, it's inappropriate (and fragile) for our test to specify a certain order.  
 
@@ -130,8 +130,8 @@ def test_content_columns
   content_columns        = Topic.content_columns
   content_column_names   = content_columns.map {|column| column.name}
   assert_same_elements %w(title author_name author_email_address written_on bonus_time last_read content approved), content_column_names
-end</pre>
-<br/>
+end
+</pre>
 
 By using an assertion like [Shoulda's](http://www.thoughtbot.com/projects/shoulda "thoughtbot: Shoulda testing plugin") [<code>assert\_same\_elements</code>](http://dev.thoughtbot.com/shoulda/classes/ThoughtBot/Shoulda/General.html#M000005 "Module: ThoughtBot::Shoulda::General") method, our test can clearly and concisely express the expected behavior.
 

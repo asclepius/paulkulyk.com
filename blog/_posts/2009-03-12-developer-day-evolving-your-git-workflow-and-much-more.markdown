@@ -10,7 +10,7 @@ Next Saturday, March 21, [Viget Labs](http://www.viget.com/ "Web Strategy, Web D
 
 Here's the rundown:
 
-> Staying current with the ever-evolving technological possibilities can be challenging, but you love trying. Why? Because you’re a fantastic web developer who loves building things, (and, frankly, that’s just how you roll).<br/><br/>
+> Staying current with the ever-evolving technological possibilities can be challenging, but you love trying. Why? Because you’re a fantastic web developer who loves building things, (and, frankly, that's just how you roll).<br/><br/>
 > Which is why this conference is perfect for you.<br/><br/>
 > Hear eight presentations given by active practitioners on topics ranging from JavaScript and Scala to Rails performance and security. Each is tailored to give you insight into various topics that may positively influence how you work, regardless of your specialization.<br/><br/>
 > So, come meet cool people, eat some lunch (from local Durham restaurants), and give yourself the day to learn and participate in several great discussions — all for the low, low price of $50.<br/><br/>

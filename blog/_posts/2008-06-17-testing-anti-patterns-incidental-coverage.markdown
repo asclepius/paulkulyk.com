@@ -23,8 +23,8 @@ Just achieving 100% code coverage is the easy part.  Making it mean something: t
   end
 
   # ... remaining methods omitted
-end</pre>
-<br/>
+end
+</pre>
 
 In order to ensure that the <code>#index</code> method is performing all its proper duties, we'll define the following "test case."
 
@@ -36,8 +36,8 @@ class ProductsControllerTest < ActionController::TestCase
   end
 
   # ... remaining tests omitted
-end</pre>
-<br/>
+end
+</pre>
 
 We'll use [rcov](http://eigenclass.org/hiki.rb?rcov#l6 "eigenclass - rcov: code coverage for Ruby") to assess the results.
 
@@ -57,8 +57,8 @@ class ProductsControllerTest < ActionController::TestCase
   end
 
   # ... remaining tests omitted
-end</pre>
-<br/>
+end
+</pre>
 
 The tests pass, and our code coverage is still at 100%.  At this point we've significantly increased the value of that particular test.  No longer does the code have to crash spectacularly in order to yield a test error.  Instead, exiting the method with anything other than a <code>success</code> response code will result in a test failure.  Similarly, failure to set the <code>@products</code> instance variable will cause the test case to flunk. [4]
 
@@ -79,8 +79,8 @@ But while we've improved on the initial test case, at best we're really only hal
   end
 
   # ... remaining methods omitted
-end</pre>
-<br/>
+end
+</pre>
 
 <pre lang="text">$ ruby products_controller_test.rb 
 Loaded suite products_controller_test
@@ -88,8 +88,8 @@ Started
 ........
 Finished in 0.17716 seconds.
 
-8 tests, 15 assertions, 0 failures, 0 errors</pre>
-<br/>
+8 tests, 15 assertions, 0 failures, 0 errors
+</pre>
 
 Unfortunately, our test suite still blindly gives a *thumbs up*, despite the fact that any attempt to access the XML-formatted output would yield an exception.  While our test suite includes assertions for how the application should prepare an HTML-bound response, our coverage of the XML-specific logic in line 9 remains merely incidental.
 
@@ -110,8 +110,8 @@ If we want our automated test suite to ensure that the <code>#index</code> metho
   end
 
   # ... remaining tests omitted
-end</pre>
-<br/>
+end
+</pre>
 
 rcov doesn't reward us with any extra credit for writing this test case, but achieving 100% coverage is not the primary goal of a good test suite. [5] The primary goal is to ensure that the code satisfies the requirements.  If the application really is required to provide an XML-formatted list of products, then we should seriously consider defining a test for that functionality in our test suite. [6]
 
