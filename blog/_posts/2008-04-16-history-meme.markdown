@@ -10,7 +10,8 @@ layout: post
 
 Hmm.  No dice.  OK, on to my second choice.
 
-<pre lang="text">jason@jmac:~> history | awk '{a[$2]++}END{for(i in a){print a[i] " " i}}' | sort -rn | head
+<pre lang="text">
+jason@jmac:~> history | awk '{a[$2]++}END{for(i in a){print a[i] " " i}}' | sort -rn | head
 48 cd
 30 exit
 29 m
@@ -20,8 +21,8 @@ Hmm.  No dice.  OK, on to my second choice.
 12 **
 10 cap1
 9 ssh
-9 rake</pre>          
-<br />
+9 rake
+</pre>          
 
 The result?  A few well-known friends and some that likely deserve a bit of elaboration.  
 

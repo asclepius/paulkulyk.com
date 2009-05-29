@@ -12,15 +12,12 @@ Many popular code coverage analysis tools currently report what's known as **lin
 
 To better illustrate what we can expect from line coverage analysis, let's first consider the following Ruby module and a possible test case for that module.
 
-
-<!--more-->
-
 <pre lang="ruby">module Math
   def max(a, b)
     if a > b then a else b end
   end
-end</pre>
-<br/>
+end
+</pre>
 
 <pre lang="ruby">require "test/unit"
 require "math"
@@ -31,8 +28,8 @@ class MathTest < Test::Unit::TestCase
   def test_max
     assert_equal 2, max(2, 1)
   end
-end</pre>
-<br/>
+end
+</pre>
 
 We can analyze this code using [rcov](http://eigenclass.org/hiki.rb?rcov#l6 "rcov: code coverage for Ruby"), and we see the following results.  
 
@@ -42,8 +39,8 @@ Started
 .
 Finished in 0.00024 seconds.
 
-1 tests, 1 assertions, 0 failures, 0 errors</pre>
-<br/>
+1 tests, 1 assertions, 0 failures, 0 errors
+</pre>
 
 [![Example 1 - 100% Line Coverage](/resources/200806-code_coverage_levels_1_thumb.png)](/resources/200806-code_coverage_levels_1.png)
 
@@ -66,8 +63,8 @@ class MathTest < Test::Unit::TestCase
   def test_second_parameter_as_max
     assert_equal 2, max(1, 2)
   end
-end</pre>
-<br/>
+end
+</pre>
 
 [![Example 3 - Back to 100% Line Coverage](/resources/200806-code_coverage_levels_3_thumb.png)](/resources/200806-code_coverage_levels_3.png)
 
@@ -81,8 +78,8 @@ To see how branch coverage analysis would fare in the scenario above, we'll pull
   public static int max(int a, int b) {
     return a > b ? a : b;
   }
-}</pre>
-<br/>
+}
+</pre>
 
 <pre lang="java">import junit.framework.TestCase;
 
@@ -90,8 +87,8 @@ public class MathTest extends TestCase {
   public void testMax() {
     assertEquals(2, Math.max(2, 1));
   }
-}</pre>
-<br/>
+}
+</pre>
 
 [![Example 4 - 100% Line Coverage. 50% Branch Coverage.](/resources/200806-code_coverage_levels_4_thumb.png)](/resources/200806-code_coverage_levels_4.png)
 
@@ -107,8 +104,8 @@ public class MathTest extends TestCase {
   public void testSecondParameterAsMax() {
     assertEquals(2, Math.max(1, 2));
   }
-}</pre>
-<br/>
+}
+</pre>
 
 [![Example 5 - 100% Line Coverage. 100% Branch Coverage.](/resources/200806-code_coverage_levels_5_thumb.png)](/resources/200806-code_coverage_levels_5.png)
 
@@ -122,8 +119,8 @@ Once we've made sure that every line is executed and each branch is tested in bo
     int y = c > d ? d : d;
     return x > y ? x : y;
   }
-}</pre>
-<br/>
+}
+</pre>
 
 <pre lang="java">import junit.framework.TestCase;
 
@@ -135,8 +132,8 @@ public class MathTest extends TestCase {
   public void testFirstParameterAsMax() {
     assertEquals(4, Math.max(4, 3, 2, 1));
   }
-}</pre>
-<br/>
+}
+</pre>
 
 When we run our tests and analyze our coverage, we see that the two tests above indeed provide 100% line and branch coverage.  
 
@@ -159,8 +156,8 @@ So far, our test suite covers 2 of the 8 possible paths (i.e., FFF and TTT), giv
 
 <pre lang="java">public void testThirdParameterAsMax() {
   assertEquals(4, Math.max(1, 2, 4, 3)); // tests the FTF path
-}</pre>
-<br/>
+}
+</pre>
 
 Adding a test to cover that path not only increases our path coverage, but more importantly, it sends us into bug-fixing mode as well.
 

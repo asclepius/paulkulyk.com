@@ -10,7 +10,8 @@ As someone who had the, um, "joy," of working with CVS, SourceSafe, ClearCase, a
 
 Git removes many of those decisions altogether, and (in true agile fashion) it allows me to defer the others until they actually matter.  I can ["execute, build momentum, and move on."](http://gettingreal.37signals.com/ch06_Done.php "Getting Real: "Done!" (by 37signals)")  Let's say I'm halfway through a blog post, and I decide that I want to try taking it in a different direction.  No problem.  Drop it in Git, and experiment away...
 
-<pre lang="text">BlogPosts> ls
+<pre lang="text">
+BlogPosts> ls
 20080422_git_is_agile.blog.md
 BlogPosts> git init
 Initialized empty Git repository in .git/
@@ -18,8 +19,8 @@ BlogPosts> git add .
 BlogPosts> git commit -m "i can haz repo?"
 Created initial commit 417554e: i can haz repo?
  1 files changed, 25 insertions(+), 0 deletions(-)
- create mode 100644 20080422_git_is_agile.blog.md</pre>          
-<br />
+ create mode 100644 20080422_git_is_agile.blog.md
+</pre>
 
 So while you'll continue to hear people (myself included) champion Git's importance as a solution for *team*-based or *community*-based development, its ability to give you *instant*, no-questions-asked version control is enough to earn a place for Git on your system, **even if you're the only one who will ever see your work**.
 

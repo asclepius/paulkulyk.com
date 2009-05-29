@@ -22,15 +22,19 @@ First, [install the mate shell command](http://macromates.com/textmate/manual/us
 
 Now that we have access to TextMate from the command line, we can assemble a quick script to get us the rest of the way toward achieving our goal.  I keep all of my custom scripts in a <code>.scripts</code> directory that I include in my path, so I'll define this handy scriptbaby in a file named <code>mman</code> (for "mate man") in that directory.
 
-<pre lang="text">> ls -l /Users/jason/.scripts/mman 
--rwxr-xr-x@ 1 jason  jason  43 Mar 14 15:52 /Users/jason/.scripts/mman</pre>
-<br />
+<pre lang="text">
+$ ls -l /Users/jason/.scripts/mman 
+-rwxr-xr-x@ 1 jason  jason  43 Mar 14 15:52 /Users/jason/.scripts/mman
+</pre>
+
 And once we drop a bit of Unix-fu into that file, we'll be good to go.
 
-<pre lang="text">#!/usr/bin/env bash
+<pre lang="text">
+#!/usr/bin/env bash
 
-man $1 | col -b | mate</pre>          
-<br />
+man $1 | col -b | mate
+</pre>
+
 To see it in action, just use <code>mman</code> anywhere you would have previously used the vanilla <code>man</code> command.
 
 [![Running mman in Terminal to open man page in TextMate](/resources/20080314-mman-textmate-thumb.png)](/resources/20080314-mman-textmate.png)
