@@ -10,9 +10,6 @@ title: ":jasonrudolph => :blog"
 
 <ul class="posts">
   {% for post in site.posts %}
-    <li>
-      <span class="title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></span>
-      <span class="published_on">Published on {{ post.date | date: "%A, %B %d, %Y" }}</span>
-    </li>
+    {% include post-li.html %}
   {% endfor %}
 </ul>
