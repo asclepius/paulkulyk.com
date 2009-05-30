@@ -40,9 +40,11 @@ layout: base
       </ul>
     </li>
     <li class="header-section search">
-      <form action="#" method="get">
-        <input type="text" name="search-input" value=""><br />
-        <input type="submit" name="search" value="Search" onclick="alert('Not yet. Please try the Google for now.'); return false;">
+      <form action="http://www.google.com/cse" id="cse-search-box">
+        <input type="hidden" name="cx" value="017017719923970963940:ggcsf-ihsqm" />
+        <input type="hidden" name="ie" value="UTF-8" />
+        <input type="text" name="q" /><br />
+        <input type="submit" name="sa" value="Search" />
       </form>
     </li>
   </ul>
