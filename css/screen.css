@@ -182,11 +182,21 @@ ul.header-links li {
 	display: block;
 }
 
-.post-list {
-  margin-top: 1em;
-  margin-bottom: 1em;
+ul.posts {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0em;
+	text-indent: -1.5em;
 }
 
-.post-list .title {
+ul.posts li {
+  margin: 1em 0;
+}
+
+ul.posts .title {
   font-size: 120%;
+}
+
+#related-posts .posts {
+  clear: both;
 }
