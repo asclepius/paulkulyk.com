@@ -3,7 +3,8 @@ wordpress_id: 249
 title: "Git Tip: How to \"Merge\" Specific Files from Another Branch"
 wordpress_url: http://jasonrudolph.com/blog/?p=249
 layout: post
-tags: git
+tags:
+- git
 ---
 ## Problem Statement
 Part of your team is hard at work developing a new feature in another branch.  They've been working on the branch for several days now, and they've been committing changes every hour or so.  Something comes up, and you need to add *some* of the code from that branch back into your mainline development branch.  (For this example, we'll assume mainline development occurs in the <code>master</code> branch.)  You're not ready to merge the entire feature branch into <code>master</code> just yet.  The code you need to grab is isolated to a handful of files, and those files don't yet exist in the <code>master</code> branch.

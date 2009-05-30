@@ -3,7 +3,8 @@ wordpress_id: 281
 title: "Git Up! 10 Reasons to Upgrade Your Old Git Installation"
 wordpress_url: http://jasonrudolph.com/blog/?p=281
 layout: post
-tags: git
+tags:
+- git
 ---
 Git has seen a huge influx of newcomers over the past year.  Many folks installed Git as they read through their first tutorial, got it working, and are still using that same trusty installation today.  But rest assured, Git has not been standing still. 
 
