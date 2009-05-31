@@ -3,6 +3,12 @@ wordpress_id: 188
 title: Noteworthy Nonsense - July 25, 2008
 wordpress_url: http://jasonrudolph.com/blog/?p=188
 layout: post
+tags:
+- git
+- grails
+- groovy
+- noteworthy nonsense
+- productivity
 ---
 * Mixins, meet Groovy.  [Groovy, say "Hello" to Mixins](http://fisheye.codehaus.org/browse/groovy/trunk/groovy/groovy-core/src/test/groovy/lang/vm5/MixinTest.groovy?r=13045 "FishEye: file groovy/trunk/groovy/groovy-core/src/test/groovy/lang/vm5/MixinTest.groovy").
 

@@ -3,6 +3,12 @@ wordpress_id: 110
 title: Relevance is Hiring!
 wordpress_url: http://jasonrudolph.com/blog/2007/11/03/relevance-is-hiring/
 layout: post
+tags:
+- agile
+- rails
+- relevance
+- ruby
+- testing	
 ---
 [Smart](http://robsanheim.com "Rob Sanheim") [developers](http://muness.blogspot.com/ "Muness Alrubaie").  [Really.](http://www.vanderburg.org/ "Glenn Vanderburg")
 

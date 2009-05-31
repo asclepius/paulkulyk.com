@@ -1,8 +1,11 @@
 --- 
 wordpress_id: 135
-title: "Lightning Talks at Tonight's Agile RTP Meetup "
+title: "Lightning Talks at Tonight's Agile RTP Meetup"
 wordpress_url: http://jasonrudolph.com/blog/2008/03/04/lightning-talks-at-tonights-agile-rtp-meetup/
 layout: post
+tags:
+- agile
+- speaking
 ---
 The Triangle's local Agile group is hosting a round of [lightning talks tonight](http://agile.meetup.com/29/calendar/7277944/ "Agile RTP - Lightning Talks").  I'll be pitching a quick demo showing just how much [Mingle](http://studios.thoughtworks.com/mingle-project-intelligence) rocks, but it's an open floor, so everything's fair game.  
 

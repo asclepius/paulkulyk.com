@@ -3,6 +3,9 @@ wordpress_id: 190
 title: "Testing Anti-Patterns: The Ugly Mirror"
 wordpress_url: http://jasonrudolph.com/blog/?p=190
 layout: post
+tags:
+- testing
+- testing anti-patterns
 ---
 When you're able to write a test, nay, a spec, that not only verifies your code's functionality, but also clearly communicates its intent, you've got a real win on your hands.  It's a win when you're first writing out your test cases as you're TDD'ing your way to the solution.  It's a win to the person providing the peer review of your code.  It's a win for you (again) when you have to revisit (and relearn) the code six weeks from now.  And it's a win for the guy that has to touch this code yet again when you're long gone.  [1]  But when you occasionally find yourself staring at a spec that looks exactly like the code under test, there's surprisingly little *win* left to enjoy.  
 

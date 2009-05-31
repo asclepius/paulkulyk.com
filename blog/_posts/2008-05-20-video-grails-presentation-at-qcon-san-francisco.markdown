@@ -3,6 +3,13 @@ wordpress_id: 169
 title: "Video: Grails Presentation at QCon San Francisco"
 wordpress_url: http://jasonrudolph.com/blog/?p=169
 layout: post
+tags:
+- grails
+- groovy
+- gswg
+- java
+- ruby
+- speaking
 ---
 InfoQ recently posted the [video of my presentation on Grails](http://www.infoq.com/presentations/rudolph-grails-intro "Getting Started with Grails @ QCon SF 2007") from QCon San Francisco.  If 50 slides in 50 minutes sounds a tad formulaic and tired to you, then you're in luck.  Instead, you'll see 50 slides in about 5 minutes, followed immediately by 50 minutes of no-nonsense live coding goodness.
 

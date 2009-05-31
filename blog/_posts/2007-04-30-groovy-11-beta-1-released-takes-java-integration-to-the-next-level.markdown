@@ -3,6 +3,9 @@ wordpress_id: 59
 title: Groovy 1.1-beta-1 Released - Takes Java Integration to the Next Level
 wordpress_url: http://jasonrudolph.com/blog/2007/04/30/groovy-11-beta-1-released-takes-java-integration-to-the-next-level/
 layout: post
+tags:
+- grails
+- groovy	
 ---
 The Groovy team has clearly been hard at work since the 1.0 release at the start of the year, and now, just in time for JavaOne, the [first beta release of Groovy 1.1](http://docs.codehaus.org/display/GROOVY/2007/04/30/Groovy+1.1-beta-1+with+annotation+support) is here to show off the fruits of that labor.  
 

@@ -3,6 +3,10 @@ wordpress_id: 181
 title: "Testing Anti-Patterns: Underspecification"
 wordpress_url: http://jasonrudolph.com/blog/?p=181
 layout: post
+tags:
+- code coverage
+- testing
+- testing anti-patterns
 ---
 Last week we discussed the perils of [overspecification](http://jasonrudolph.com/blog/2008/07/01/testing-anti-patterns-overspecification/ "jasonrudolph.com/blog -- Testing Anti-Patterns: Overspecification"), and while we saw that it's clearly possible for a test suite to do too much, it's far more common for it to do too little.
 

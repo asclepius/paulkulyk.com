@@ -3,6 +3,14 @@ wordpress_id: 136
 title: Noteworthy Nonsense - March 9, 2008
 wordpress_url: http://jasonrudolph.com/blog/2008/03/09/noteworthy-nonsense-march-9-2008/
 layout: post
+tags:
+- git
+- grails
+- iphone
+- nonsense
+- rails
+- ruby
+- testing
 ---
 In the spirit of Andy Glover's [Weekly Bag](http://thediscoblog.com/2008/03/08/the-weekly-bag-march-7/ "The Disco Blog - The weekly bag - March 7") and Bill Dupre's frequent batches of [Whatever](http://wpdupre.blogspot.com/2008/03/whatever.html "whatever"), herein lies the first installment in a (sure-to-be-sporadic) series of [Noteworthy Nonsense](http://jasonrudolph.com/blog/tag/nonsense/ "jasonrudolph.com - Blog Category - Noteworthy Nonsense").  
 

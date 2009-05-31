@@ -3,6 +3,10 @@ wordpress_id: 127
 title: test/spec/rails => You Bettuh Recognize
 wordpress_url: http://jasonrudolph.com/blog/2008/02/06/testspecrails-you-bettuh-recognize/
 layout: post
+tags:
+- rails
+- ruby
+- testing	
 ---
 Believe it or not, there are still at least [a few](http://robsanheim.com/2008/01/25/why-i-use-testspec-over-rspec/ "Panasonic Youth - Why I use test/spec over rspec") [of us](http://matthewbass.com/2008/01/09/add-layout-checking-to-test_spec_rails-plugin/ "Matthew Bass - Add layout checking to test_spec_on_rails") [crazy hold-outs](http://streamlinedframework.org/articles/2007/12/21/streamlined-goes-test-spec "Streamlined goes test/spec") that still haven't imbibed the increasingly ubiquitous RSpec Kool-Aid.  And for the folks in this crowd that still want BDD-style testing, it's [test-spec](http://chneukirchen.org/blog/archive/2007/01/announcing-test-spec-0-3-a-bdd-interface-for-test-unit.html "Christian Neukirchen: Announcing test/spec 0.3, a BDD interface for Test::Unit") and [test/spec/rails](http://agilewebdevelopment.com/plugins/test_spec_on_rails "Test Spec on Rails") all the way.  So when I recently needed a means for validating that a nontrivial route landed in the right controller/action, I naturally went looking for the test/spec/rails equivalent of `#assert_recognizes`.  When I saw that it was nowhere to be found, I knew I'd found another task for [Open Source Fridays](http://thinkrelevance.com/open-source "Open Source at Relevance") (er, the first half hour of an Open Source Friday).  And thanks to [Matthew Bass](http://matthewbass.com/2008/01/10/layout-assertion-added-to-test_spec_rails/ "Matthew Bass - test/spec/rails committer")'s uncanny responsiveness in applying the patch that [Rob Sanheim](http://robsanheim.com) and I submitted, test/spec/rails now offers some handy new specs for testing your routes.
 

@@ -3,6 +3,9 @@ wordpress_id: 147
 title: "Manning up: TextMate Meets Man Pages"
 wordpress_url: http://jasonrudolph.com/blog/2008/03/14/manning-up-textmate-meets-man-pages/
 layout: post
+tags:
+- command line
+- textmate
 ---
 Navigating through [man pages](http://en.wikipedia.org/wiki/Manpage "Manual page (Unix) - Wikipedia") in a terminal window doesn't exactly rank as a highlight of this developer's day.  The experience feels like [1971](http://en.wikipedia.org/wiki/Manpage#History "History of Man Pages - Wikipedia") for a reason, and that means of interaction just leaves something to be desired.  Perhaps you could make the argument that A) people that read man pages don't rank humane interfaces as a top priority, or that B) I could spend more time mastering the ways to navigate via [less](http://en.wikipedia.org/wiki/Less_%28Unix%29 "less (Unix) - Wikipedia") (the default man page browser in OS X).  But, believe it or not, apparently I'm not alone in my crazy desire to [consult man pages outside of the terminal](http://www.tuaw.com/2008/03/07/here-comes-your-man-viewer/ "Here comes your man (viewer) - The Unofficial Apple Weblog (TUAW)").  So with [web-based solutions](http://www.hmug.org/man/ "HMUG: man Pages"), [PDF generators](http://www.daniele.ch/man2PDF.zip "man2PDF -	"Create beautiful PDF files from the man pages""), and [full](http://www.kendallp.net/at_PAK/ManViewer/ "Man Viewer")-[blown](http://geeksuit.com/software/77_0_1_0_M/ "Man Handler") [apps](http://www.clindberg.org/projects/ManOpen.html "ManOpen") dedicated solely to "manning up," where should we turn?  Queue [The Pragmatic Programmer](http://pragmaticprogrammer.com/the-pragmatic-programmer/extracts/tips "Pragmatic Software Development Tips from the "Pragmatic Programmer"") for some welcome words of wisdom:
 

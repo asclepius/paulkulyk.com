@@ -3,6 +3,9 @@ wordpress_id: 69
 title: "JavaOne Day 2, Part 3: Solutions for Sanity"
 wordpress_url: http://jasonrudolph.com/blog/2007/05/11/javaone-day-2-part-3-solutions-for-sanity/
 layout: post
+tags:
+- grails
+- java	
 ---
 Day 2 wrapped up with talks on ways to stay sane when developing in two particular problem domains: concurrency and web apps.  And since those domains certainly aren't mutually exclusive, this pair of sessions made for a good closing to a solid day of Java geekery.
 

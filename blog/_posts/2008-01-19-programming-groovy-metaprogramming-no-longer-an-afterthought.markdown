@@ -3,6 +3,9 @@ wordpress_id: 120
 title: "Programming Groovy: Metaprogramming No Longer an Afterthought"
 wordpress_url: http://jasonrudolph.com/blog/2008/01/19/programming-groovy-metaprogramming-no-longer-an-afterthought/
 layout: post
+tags:
+- book
+- groovy	
 ---
 I recently finished a tech review of [Venkat Subramaniam's](http://agiledeveloper.com/blog/ "Agile Developer - Venkat Subramaniam's Blog") upcoming book from the Pragmatic Programmers, [*Programming Groovy: Dynamic Productivity for the Java Developer*](http://pragprog.com/titles/vslg "The Pragmatic Bookshelf | Programming Groovy"), and I was pleased to find that Venkat included a healthy dose of "[the red pill](http://groovygrails.com/gg/conference/speaker?speakerId=18&amp;showId=131#pr8897 "Scott Davis at 2GX - Groovy, The Red Pill: Metaprogramming, the Groovy Way to Blow a Buttoned-Down Java Developer's Mind")."         
 

@@ -3,6 +3,9 @@ wordpress_id: 268
 title: "Developer Day: Evolving Your Git Workflow, and Much More"
 wordpress_url: http://jasonrudolph.com/blog/?p=268
 layout: post
+tags:
+- git
+- speaking
 ---
 Next Saturday, March 21, [Viget Labs](http://www.viget.com/ "Web Strategy, Web Design, Web Development, and Web Marketing at Viget Labs") and [Relevance, Inc.](http://thinkrelevance.com/ "Relevance: Agile Development, Consulting and Training") are presenting [Developer Day](http://developer-day.com/ "Developer Day - Durham, NC - March 21st, 2009"), a one-day conference representing a veritable cornucopia of high-tech awesomeness.
 

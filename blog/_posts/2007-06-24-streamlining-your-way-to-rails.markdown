@@ -3,6 +3,11 @@ wordpress_id: 84
 title: Streamlining Your Way to Rails
 wordpress_url: http://jasonrudolph.com/blog/2007/06/24/streamlining-your-way-to-rails/
 layout: post
+tags:
+- grails
+- rails
+- ruby
+- streamlined	
 ---
 By the time you've knocked out your first few [Rails](http://rubyonrails.org) apps, you're probably not particularly excited about starting another UI from scratch.  You're still jazzed about the fact that ActiveRecord is going to save you from all the boilerplate ORM plumbing, and you're psyched to be developing in a dynamic (and elegant and powerful) language like Ruby, but it's hard to actually look forward to manually wiring up the relationships in the UI (again), tediously tying in Ajax in all the usual places (again), implementing live search (again), adding in pagination and sortable lists (again), and, well, you get the idea.  Developing in Rails is supposed to be *enjoyable*, so we need something to bring the overall pleasantness of Rails into *these* areas of application development as well. 
 

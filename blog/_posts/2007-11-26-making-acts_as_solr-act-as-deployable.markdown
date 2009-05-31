@@ -3,6 +3,9 @@ wordpress_id: 113
 title: Making acts_as_solr Act As Deployable
 wordpress_url: http://jasonrudolph.com/blog/2007/11/26/making-acts_as_solr-act-as-deployable/
 layout: post
+tags:
+- rails
+- ruby	
 ---
 [We](http://thinkrelevance.com "Relevance, Inc.") recently deployed two new [Solr](http://lucene.apache.org/solr/ "Apache Solr")-powered apps, and thanks to [acts\_as\_solr](http://acts-as-solr.railsfreaks.com/acts_as_solr "acts_as_solr Rails plugin"), *most* of the task of integrating Solr with Rails was downright trivial.  Deployment, however, came with a few small roadbumps.
 

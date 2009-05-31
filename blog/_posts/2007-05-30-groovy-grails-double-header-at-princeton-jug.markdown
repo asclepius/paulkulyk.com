@@ -3,6 +3,10 @@ wordpress_id: 77
 title: "Groovy + Grails Double-Header at Princeton JUG   "
 wordpress_url: http://jasonrudolph.com/blog/2007/05/30/groovy-grails-double-header-at-princeton-jug/
 layout: post
+tags:
+- grails
+- groovy
+- speaking	
 ---
 If you'll be in or around the Princeton, NJ area this coming Tuesday (June 5th), mark your calendars for a special Groovy and Grails double-header at the [Princeton Java Users Group](http://www.weekendwithexperts.com/meetings.do).  
 

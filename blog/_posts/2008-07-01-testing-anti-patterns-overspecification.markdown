@@ -3,6 +3,9 @@ wordpress_id: 179
 title: "Testing Anti-Patterns: Overspecification"
 wordpress_url: http://jasonrudolph.com/blog/?p=179
 layout: post
+tags:
+- testing
+- testing anti-patterns
 ---
 Tests increasingly serve multiple roles in today's projects.  They help us design APIs through test-driven development.  They provide confidence that new changes aren't breaking existing functionality.  They offer an executable specification of the application.  But can we ever get to a point where we have too much testing?  
 

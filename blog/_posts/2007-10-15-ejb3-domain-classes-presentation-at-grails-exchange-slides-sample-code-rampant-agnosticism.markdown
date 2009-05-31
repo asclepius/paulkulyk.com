@@ -3,6 +3,9 @@ wordpress_id: 101
 title: "EJB3 Domain Classes Presentation at Grails eXchange: Slides, Sample Code, & Rampant Agnosticism"
 wordpress_url: http://jasonrudolph.com/blog/2007/10/17/ejb3-domain-classes-presentation-at-grails-exchange-slides-sample-code-rampant-agnosticism/
 layout: post
+tags:
+- grails
+- speaking	
 ---
 As an extension to [last year's Grails + EJB3 tutorial on InfoQ.com](http://www.infoq.com/news/grails-ejb-tutorial "InfoQ Article: Grails + EJB Domain Models Step-by-Step"), I had the pleasure today of [presenting](http://www.grails-exchange.com/jason-rudolph "Grails eXchange 2007 : Jason Rudolph : EJB3 Entities and Grails") an updated demo on this topic, showing just how easy it is to pimp out your EJB3 entity beans to include all the slick dynamic goodness we've come to know and love from traditional Grails domain classes.  
 

@@ -3,6 +3,8 @@ wordpress_id: 180
 title: 5 Resources for Getting Up to Speed on Rails 2.1
 wordpress_url: http://jasonrudolph.com/blog/?p=180
 layout: post
+tags:
+- rails
 ---
 [Rails 2.1](http://blog.rubyonrails.org/2008/6/1/rails-2-1-time-zones-dirty-caching-gem-dependencies-caching-etc "Riding Rails: Rails 2.1: Time zones, dirty, caching, gem dependencies, caching, etc") has been out for a little over a month now, and I've had several people ask me to recommend resources for getting up to speed on its new moves.  So, in no particular order, here goes ...
 

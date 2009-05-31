@@ -3,6 +3,11 @@ wordpress_id: 70
 title: "JavaOne Day 3, Part 1: Mash-up your languages, Mash-up your web apps"
 wordpress_url: http://jasonrudolph.com/blog/2007/05/11/javaone-day-3-part-1-mash-up-your-languages-mash-up-your-web-apps/
 layout: post
+tags:
+- agile
+- java
+- rails
+- ruby	
 ---
 The variety of topics at this year's JavaOne has been quite impressive, and Day 3 was no exception.  Ruby, JavaScript, Groovy, Spring, and JMX all in one day?  You bet.  Here goes.  
 

@@ -3,6 +3,11 @@ wordpress_id: 191
 title: "Testing Anti-Patterns: Invisible Code"
 wordpress_url: http://jasonrudolph.com/blog/?p=191
 layout: post
+tags:
+- code coverage
+- rails
+- testing
+- testing anti-patterns
 ---
 As we've seen over the last several weeks, it's remarkably easy for code to earn the badge of 100% [test coverage](http://jasonrudolph.com/blog/2008/06/10/a-brief-discussion-of-code-coverage-types/ "jasonrudolph.com/blog - A Brief Discussion of Code Coverage Types") *without* necessarily having a strong test suite.  In [each of those examples](http://jasonrudolph.com/blog/testing-anti-patterns-how-to-fail-with-100-test-coverage/ "jasonrudolph.com/blog - Testing Anti-Patterns"), the coverage analysis tool performed its task flawlessly: it reported exactly which portions of our code were executed as a result of running the tests.  The all-green coverage report showed us that the tests indeed touched all of our code, but it was up to us to acknowledge that simply touching a line of code doesn't mean that you've exercised and verified that line of code in a meaningful way.  Some folks interpret this acknowledgement to mean that coverage analysis is meaningless, but that unfortunate conclusion overlooks the real benefit of a coverage report: it's not about getting to 100% test coverage and assuming victory, it's about highlighting any areas of our codebase that we've forgotten to test entirely.
 

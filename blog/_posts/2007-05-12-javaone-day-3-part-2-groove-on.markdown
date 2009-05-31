@@ -3,6 +3,10 @@ wordpress_id: 71
 title: "JavaOne Day 3, Part 2: Groove On!"
 wordpress_url: http://jasonrudolph.com/blog/2007/05/12/javaone-day-3-part-2-groove-on/
 layout: post
+tags:
+- grails
+- groovy
+- java	
 ---
 Groovy's getting a whole lotta love at the JavaOne bookstore this week, and as of this moment, [Groovy in Action](http://www.manning.com/koenig/) is #5 on the JavaOne [best seller list](http://java.sun.com/javaone/sf/2007/articles/bookstorebestsellers.jsp).  Groovy's been at least *mentioned* in almost every session I've seen, and as you can tell from the titles of the talks below, these particular sessions gave it much more than just a passing comment.
 

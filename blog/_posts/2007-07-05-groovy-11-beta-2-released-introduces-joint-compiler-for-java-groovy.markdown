@@ -3,6 +3,9 @@ wordpress_id: 86
 title: Groovy 1.1-beta-2 Released, Introduces Joint Compiler for Java & Groovy!
 wordpress_url: http://jasonrudolph.com/blog/2007/07/05/groovy-11-beta-2-released-introduces-joint-compiler-for-java-groovy/
 layout: post
+tags:
+- groovy
+- java	
 ---
 In one fell swoop, the Groovy team and JetBrains have seemingly annihilated the biggest reason (and perhaps the only reason) *not* to use Groovy in your Java project.  With today's release of Groovy 1.1-beta-2, you can now use the groovyc compiler to jointly compile both your Groovy and Java classes.  And here's the kicker: it manages all the dependencies for you!  Groovy class A extends Java class B which references Groovy class C?  No problem.
 

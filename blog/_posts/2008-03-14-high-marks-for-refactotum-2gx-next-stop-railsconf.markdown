@@ -3,6 +3,10 @@ wordpress_id: 141
 title: High Marks for Refactotum 2GX; Next Stop RailsConf
 wordpress_url: http://jasonrudolph.com/blog/2008/03/14/high-marks-for-refactotum-2gx-next-stop-railsconf/
 layout: post
+tags:
+- grails
+- rails
+- speaking
 ---
 Want to know more about just how easy it is to contribute to the many open source projects that you use day in and day out?  The [Refactotum](http://blog.thinkrelevance.com/twir "Relevance, Inc. - Refactotum") series is dedicated to showing you how.  Coming up at [RailsConf](http://en.oreilly.com/rails2008/public/schedule/detail/2101 "RailsConf 2008: Refactotum: Contributing to Open Source") in May, [Stu](http://thinkrelevance.com/about "Stuart Halloway"), [Justin](http://thinkrelevance.com/about "Justin Gehtland"), [Rob](http://robsanheim.com/ "Rob Sanheim"), and I will be offering up another round of Refactotum open sorcery.
 

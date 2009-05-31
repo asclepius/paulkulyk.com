@@ -3,6 +3,9 @@ wordpress_id: 204
 title: Testing Anti-Patterns Potpourri - Quotes, Resources, and Collective Wisdom
 wordpress_url: http://jasonrudolph.com/blog/?p=204
 layout: post
+tags:
+- testing
+- testing anti-patterns
 ---
 While working on the [Testing Anti-Patterns series](http://jasonrudolph.com/blog/testing-anti-patterns-how-to-fail-with-100-test-coverage/ "jasonrudolph.com/blog - Testing Anti-Patterns") over the past few months, I've had the pleasure of reading some great writing on testing, test-driven development, code coverage analysis, and the bigger picture of software quality in general.  What follows is a collection of some of my favorite findings: quotes and resources spanning the last ten years and then some.
 

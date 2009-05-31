@@ -3,6 +3,9 @@ wordpress_id: 193
 title: Grails Presentations Open Sourced on GitHub
 wordpress_url: http://jasonrudolph.com/blog/?p=193
 layout: post
+tags:
+- grails
+- speaking
 ---
 Want to help convince your peers to take Grails for a spin?  Are you looking to give a presentation to your dev team, your company, or perhaps a local user group?  If you'd rather not have to assemble a presentation from scratch, I've got good news for you: you can now grab the raw Keynote files and demo code for my [Grails presentations on GitHub](http://github.com/jasonrudolph/ "jasonrudolph's Profile &mdash; GitHub").  (If you don't have Keynote, no worries: the PDFs are available as well).  And it's GitHub, so feel free to fork, customize, and spread the good word.  Remember: As long as there's an IDE somewhere with an open struts-config file, there's a developer in need of help.
 

@@ -3,6 +3,9 @@ wordpress_id: 68
 title: "JavaOne Day 2, Part 2: An Afternoon of Rich UIs"
 wordpress_url: http://jasonrudolph.com/blog/2007/05/10/javaone-day-2-part-2-an-afternoon-of-rich-uis/
 layout: post
+tags:
+- grails
+- java	
 ---
 For Day 2's early afternoon sessions, I had the opportunity to see two very different solutions for building rich user interfaces.
 

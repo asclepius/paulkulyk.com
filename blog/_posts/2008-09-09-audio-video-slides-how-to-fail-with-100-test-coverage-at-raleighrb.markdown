@@ -3,6 +3,13 @@ wordpress_id: 196
 title: "Audio, Video, Slides: How to Fail With 100% Test Coverage at raleigh.rb"
 wordpress_url: http://jasonrudolph.com/blog/?p=196
 layout: post
+tags:
+- code coverage
+- rails
+- ruby
+- speaking
+- testing
+- testing anti-patterns
 ---
 The [Testing Anti-Patterns series](http://jasonrudolph.com/blog/testing-anti-patterns-how-to-fail-with-100-test-coverage/ "jasonrudolph.com/blog - Testing Anti-Patterns: How to Fail With 100% Test Coverage") began as a conference presentation titled **How to Fail With 100% Test Coverage**, and I recently had the pleasure of presenting that talk at the [Raleigh-Area Ruby Brigade (raleigh.rb)](http://ruby.meetup.com/3/calendar/7849526/ "Raleigh-area Ruby Brigade August Meeting - Jason Rudolph on 'How to Fail With 100% Test Coverage'").  [Matthew Bass](http://matthewbass.com "matthewbass.com") was kind enough to record the audio from the event, and I've taken a stab at syncing that audio with the slides for a full-on multimedia extravaganza.<sup>&sect;</sup>
 

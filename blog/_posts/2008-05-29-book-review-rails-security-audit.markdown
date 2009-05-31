@@ -3,6 +3,9 @@ wordpress_id: 173
 title: "Book Review: Rails Security Audit"
 wordpress_url: http://jasonrudolph.com/blog/?p=173
 layout: post
+tags:
+- book
+- rails
 ---
 [Rails Security Audit](http://peepcode.com/products/rails-security-audit-pdf) is an straight-talking introduction to the techniques for keeping your Rails app secure.  Over the course of 47 pages, [Aaron Bedra](http://aaronbedra.com) tackles the security audit process, common security-related bugs, essential server lockdown tactics, and an approach for assessing the severity of the issues you find.
 

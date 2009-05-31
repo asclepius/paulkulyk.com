@@ -3,6 +3,13 @@ wordpress_id: 155
 title: history meme
 wordpress_url: http://jasonrudolph.com/blog/2008/04/16/history-meme/
 layout: post
+tags:
+- capistrano
+- command line
+- git
+- rails
+- ruby
+- textmate
 ---
 [Rob dared me](http://robsanheim.com/2008/04/16/history-meme-onwards/ "Panasonic Youth - history meme onwards") to fire up my favorite shell and jump into [the game](http://www.google.com/search?q=history+meme "history meme - Google Search").  Imagine my disappointment when I was greeted with this bummer of an error message. 
 

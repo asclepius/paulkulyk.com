@@ -3,6 +3,9 @@ wordpress_id: 111
 title: "Web 2.0 Meetup in NYC Tonight: The Prophecy of Grails"
 wordpress_url: http://jasonrudolph.com/blog/2007/10/22/web-20-meetup-in-nyc-tonight-the-prophecy-of-grails-2/
 layout: post
+tags:
+- grails
+- speaking	
 ---
 So you're hanging out in New York City tonight, and you're not sure yet what to do?  Umm, does free food and an open bar peak your interest?  Yeah?  Then come talk tech at the [Web 2.0 Meetup](http://web2meetup.com/2007/10/21/the-ladders-served-lunch-20-sponsor-web-20-meetup-on-monday-1022/) tonight at 6:30.  
 

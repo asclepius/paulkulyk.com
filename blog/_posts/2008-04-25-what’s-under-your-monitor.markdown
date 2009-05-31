@@ -3,6 +3,9 @@ wordpress_id: 167
 title: "What's Under Your Monitor?"
 wordpress_url: http://jasonrudolph.com/blog/?p=167
 layout: post
+tags:
+- abstraction
+- relevance
 ---
 Muness blogged a photographic [introduction to the Relevance mothership](http://muness.blogspot.com/2008/04/buckets-of-mice.html "Mundane Essays: Buckets of mice"), and Glenn Vanderburg went all meta on us and asked what we could learn from comparing the books in active use on the desks to the less fortunate books relegated to use as monitor stands.<sup>&sect;</sup>
 

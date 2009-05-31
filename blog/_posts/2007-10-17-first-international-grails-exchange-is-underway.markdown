@@ -3,6 +3,9 @@ wordpress_id: 98
 title: First International Grails eXchange is Underway
 wordpress_url: http://jasonrudolph.com/blog/2007/10/17/first-international-grails-exchange-is-underway/
 layout: post
+tags:
+- grails
+- groovy	
 ---
 After a HUGE week of Groovy and Grails news, the momentum culminates today at the [first International Grails eXchange in London](http://grails-exchange.com).  
 

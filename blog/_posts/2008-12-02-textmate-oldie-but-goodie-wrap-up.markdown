@@ -3,6 +3,9 @@ wordpress_id: 241
 title: TextMate Oldie But Goodie Wrap-up
 wordpress_url: http://jasonrudolph.com/blog/?p=241
 layout: post
+tags:
+- productivity
+- textmate
 ---
 With November behind us, there's now a [month of TextMate productivity tips](http://jasonrudolph.com/blog/2008/11/04/a-month-of-textmate-productivity-tips/ "jasonrudolph/blog &raquo; A Month of TextMate Productivity Tips") scattered across the twitterverse.  In case you missed any of them, here's a recap:
 

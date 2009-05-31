@@ -3,6 +3,9 @@ wordpress_id: 107
 title: RubyConf.new('2007').observe(:order => :random)
 wordpress_url: http://jasonrudolph.com/blog/2007/11/02/rubyconfnew2007observeorder-random/
 layout: post
+tags:
+- groovy
+- ruby	
 ---
 ![Ruby Logo](/resources/20071102-ruby-logo.gif)
 

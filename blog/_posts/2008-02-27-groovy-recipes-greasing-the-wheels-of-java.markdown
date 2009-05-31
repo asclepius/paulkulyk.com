@@ -3,6 +3,10 @@ wordpress_id: 133
 title: "Groovy Recipes: Greasing the Wheels of Java"
 wordpress_url: http://jasonrudolph.com/blog/2008/02/27/groovy-recipes-greasing-the-wheels-of-java/
 layout: post
+tags:
+- book
+- grails
+- groovy	
 ---
 The first print copies of Scott Davis's new book, [Groovy Recipes: Greasing the Wheels of Java](http://pragprog.com/titles/sdgrvr "The Pragmatic Bookshelf | Groovy Recipes"), debuted last week at [2GX](http://jasonrudolph.com/blog/2008/02/24/refactotum-2gx-edition/ "jasonrudolph.com - Blog - Refactotum: 2GX Edition").  
 

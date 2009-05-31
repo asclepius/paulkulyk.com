@@ -3,6 +3,9 @@ wordpress_id: 230
 title: A Month of TextMate Productivity Tips
 wordpress_url: http://jasonrudolph.com/blog/?p=230
 layout: post
+tags:
+- productivity
+- textmate
 ---
 I've had the joy of calling [TextMate](http://macromates.com/ "TextMate — The Missing Editor for Mac OS X") my editor of choice for almost three years now, and as the [The Pragmatic Programmer](http://pragmaticprogrammer.com/the-pragmatic-programmer/extracts/tips "Pragmatic Software Development Tips from the "Pragmatic Programmer"") wisely recommends, my editor has definitely grown to become "an extension of [my] hand."  Often when giving a presentation or pair programming, someone will stop me to ask, "Wait a minute. How'd you do that?" "*That*" is inevitably in reference to some bit of hyper-productive TextMate keyboard wizardry that eliminated several steps the person was otherwise expecting to see. Of course, a few years ago you were more likely to hear *me* asking that question. (And I still love it when I get to ask that question nowadays.)
 

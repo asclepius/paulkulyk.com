@@ -3,6 +3,14 @@ wordpress_id: 153
 title: Noteworthy Nonsense - April 4, 2008
 wordpress_url: http://jasonrudolph.com/blog/2008/04/04/noteworthy-nonsense-april-5-2008/
 layout: post
+tags:
+- closures
+- git
+- groovy
+- java
+- nonsense
+- rails
+- speaking
 ---
 * Geertjan Wielenga suggests the [first (and only) Java closure solution that makes any sense](http://groovy.dzone.com/news/closures-solution-include-groo "Closures Solution: Include Groovy in the JDK? | Groovy Zone").
 

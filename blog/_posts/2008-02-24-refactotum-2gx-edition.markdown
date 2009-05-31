@@ -3,6 +3,11 @@ wordpress_id: 129
 title: "Refactotum: 2GX Edition"
 wordpress_url: http://jasonrudolph.com/blog/2008/02/24/refactotum-2gx-edition/
 layout: post
+tags:
+- grails
+- groovy
+- speaking
+- testing	
 ---
 The inaugural [Groovy/Grails Experience (2GX)](http://jasonrudolph.com/blog/2007/12/20/2gx-next-gen-java-conference-is-right-around-the-corner/ "2GX - Next-Gen Java Conference Is Right Around the Corner") is in the bag, and as much as I was looking forward to it, it honestly *exceeded* my expectations rather significantly. The sheer enthusiasm for Groovy (and Grails) in the Java community is almost *palpable*.
 

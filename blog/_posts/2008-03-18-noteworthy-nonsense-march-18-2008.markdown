@@ -3,6 +3,12 @@ wordpress_id: 148
 title: Noteworthy Nonsense - March 18, 2008
 wordpress_url: http://jasonrudolph.com/blog/2008/03/18/noteworthy-nonsense-march-18-2008/
 layout: post
+tags:
+- git
+- grails
+- nonsense
+- rails
+- testing
 ---
 * [More evidence](http://googletesting.blogspot.com/2008/03/tott-understanding-your-coverage-data.html "Google Testing Blog: TotT: Understanding Your Coverage Data") that 100% test coverage is just a good place to *start*.
 

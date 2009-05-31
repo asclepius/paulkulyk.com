@@ -3,6 +3,14 @@ wordpress_id: 152
 title: Interview at Groovy Zone
 wordpress_url: http://jasonrudolph.com/blog/2008/04/03/interview-at-groovy-zone/
 layout: post
+tags:
+- grails
+- groovy
+- gswg
+- java
+- rails
+- ruby
+- testing
 ---
 Andres Almiray [interviewed me this week for the Groovy Zone](http://groovy.dzone.com/news/jason-rudolph-second-leg-grail "Jason Rudolph: Second Leg of the Grails Race | Groovy Zone").  We cover a breadth of topics, including:
 

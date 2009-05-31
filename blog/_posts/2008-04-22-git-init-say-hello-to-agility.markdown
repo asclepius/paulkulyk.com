@@ -3,6 +3,9 @@ wordpress_id: 158
 title: "git init: Say Hello to Agility"
 wordpress_url: http://jasonrudolph.com/blog/2008/04/22/git-init-say-hello-to-agility/
 layout: post
+tags:
+- agile
+- git
 ---
 With all the recent fuss about the [game-changing advantages of Git](http://git.or.cz/#about "Git - Fast Version Control System") and distributed version control in general, it would be easy to overlook what Git does for deciding *whether* (and when) to use version control for a given task.  Sure, Git makes non-linear development a breeze, it manages large projects with uncanny efficiency, and we probably can't even fathom yet just how transforming [github](http://github.com/ "Secure Git hosting and collaborative development - GitHub") is going to be for open source.  But, if you look closely, there's something worth noting way before you create your first branch, before your project is even thirty minutes old, and well before you're ready to share it with the community:  git init is so pleasantly simple, you'll never again think twice about "whether it's worth it" to throw something into version control.
 

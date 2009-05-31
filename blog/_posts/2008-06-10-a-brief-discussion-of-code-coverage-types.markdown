@@ -3,6 +3,11 @@ wordpress_id: 174
 title: A Brief Discussion of Code Coverage Types
 wordpress_url: http://jasonrudolph.com/blog/?p=174
 layout: post
+tags:
+- code coverage
+- java
+- ruby
+- testing
 ---
 In any discussion of code coverage, it's important to understand the *type* of coverage that's being measured.  In the same way that you wouldn't plan a trip to the beach without knowing whether it's going to be 30 degrees Celsius (perfect!) or 30 degrees Fahrenheit (stay home), we can't have a truly meaningful discourse on code coverage without first identifying the analysis type.
 

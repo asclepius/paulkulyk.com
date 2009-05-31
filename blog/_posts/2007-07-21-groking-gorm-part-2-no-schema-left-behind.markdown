@@ -3,6 +3,10 @@ wordpress_id: 88
 title: "Grokking GORM - Part 2: No Schema Left Behind"
 wordpress_url: http://jasonrudolph.com/blog/2007/07/21/groking-gorm-part-2-no-schema-left-behind/
 layout: post
+tags:
+- grails
+- groovy
+- java	
 ---
 We began [Part 1 of this adventure](http://jasonrudolph.com/blog/2007/07/20/groking-gorm-part-1-conventional-thinking/ "Groking GORM - Part 1: Conventional Thinking") with a greenfield application that chose to kindly comply with all the standard Grails conventions.  Now it's time to venture into the land of non-conformity.  
 

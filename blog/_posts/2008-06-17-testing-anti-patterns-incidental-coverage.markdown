@@ -3,6 +3,10 @@ wordpress_id: 176
 title: "Testing Anti-Patterns: Incidental Coverage"
 wordpress_url: http://jasonrudolph.com/blog/?p=176
 layout: post
+tags:
+- code coverage
+- testing
+- testing anti-patterns
 ---
 So you've taken your project to 100% [code coverage](http://jasonrudolph.com/blog/2008/06/10/a-brief-discussion-of-code-coverage-types/), you've configured your continuous integration system to fail the build if that coverage ever drops below 100%, and you're ready to enjoy the fearless refactoring and the rock solid regression testing suite that your software engineering rigor has now earned you.  But are you really covered?  What does 100% code coverage mean in your project?  Is it enough to know that your test suite *encounters* every line of code?  Or don't you want to be sure that it *exercises* every line?  If you simply encounter the line without asserting that it produces the correct results, are you any better off? [1]
 

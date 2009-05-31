@@ -3,6 +3,11 @@ wordpress_id: 60
 title: "JavaOne Preloaded: A Groovy/Grails Special Event"
 wordpress_url: http://jasonrudolph.com/blog/2007/05/01/javaone-preloaded-a-groovygrails-special-event/
 layout: post
+tags:
+- grails
+- groovy
+- java
+- speaking	
 ---
 If you're heading to JavaOne next week, what better way to get the festivities started than to spend an evening checking out the one-two punch that is [Groovy](http://groovy.codehaus.org/) and [Grails](http://grails.org/)?!  The No Fluff Just Stuff Java Symposium Series is hosting the [Groovy/Grails One Meet-up](http://www.nofluffjuststuff.com/groovygrailsmeetup/) from 6:30 - 10:30 on Monday night at the W Hotel, just across the street from the Moscone Center.  
 
