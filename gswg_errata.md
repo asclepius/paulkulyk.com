@@ -2,7 +2,7 @@
 layout: default
 title: Errata for "Getting Started with Grails" - Jason Rudolph Dot Com
 ---
-# Errata
+# Getting Started with Grails - Errata
 
 If you downloaded a copy of <a href="http://www.infoq.com/minibooks/grails">Getting Started with Grails</a> before January 31st, 2007, you're encouraged to <a href="http://www.infoq.com/minibooks/grails">download an updated copy</a>.  Downloads prior to January 31st included a handful of errors that are corrected in the latest copy.
 

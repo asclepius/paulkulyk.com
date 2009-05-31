@@ -2,7 +2,7 @@
 layout: default
 title: FAQ for "Getting Started with Grails" - Jason Rudolph Dot Com
 ---
-# Frequently Asked Questions
+# Getting Started with Grails - Frequently Asked Questions
 
 **1. Page 7 (Chapter 3 - Hello, Grails!) -- Using Grails 0.4.2, why don't I see the *Welcome to Grails* page when I execute `grails run-app` for the first time?**
 
