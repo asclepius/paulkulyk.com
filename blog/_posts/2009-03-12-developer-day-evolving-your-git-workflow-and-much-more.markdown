@@ -6,7 +6,7 @@ layout: post
 ---
 Next Saturday, March 21, [Viget Labs](http://www.viget.com/ "Web Strategy, Web Design, Web Development, and Web Marketing at Viget Labs") and [Relevance, Inc.](http://thinkrelevance.com/ "Relevance: Agile Development, Consulting and Training") are presenting [Developer Day](http://developer-day.com/ "Developer Day - Durham, NC - March 21st, 2009"), a one-day conference representing a veritable cornucopia of high-tech awesomeness.
 
-[![200903 Developer Day](/resources/200903-developer-day.png)](http://developer-day.com/ "Developer Day - Durham, NC - March 21st, 2009")
+[![200903 Developer Day](http://jasonrudolph.com/resources/200903-developer-day.png)](http://developer-day.com/ "Developer Day - Durham, NC - March 21st, 2009")
 
 Here's the rundown:
 

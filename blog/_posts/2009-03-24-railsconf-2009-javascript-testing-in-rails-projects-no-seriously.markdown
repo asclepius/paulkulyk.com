@@ -11,7 +11,7 @@ tags:
 ---
 Going to RailsConf in Las Vegas this year?  [Larry Karnowski](http://tech.hickorywind.org/ "HickoryTech") and I are presenting a session on [giving your JavaScript code the testing love it deserves](http://en.oreilly.com/rails2009/public/schedule/detail/8013 "JavaScript Testing in Rails: Fast, Headless, In-Browser. Pick Any Three").
 
-[![RailsConf 2009](/resources/200903-railsconf-2009.png)
+[![RailsConf 2009](http://jasonrudolph.com/resources/200903-railsconf-2009.png)
 ](http://en.oreilly.com/rails2009/public/schedule/detail/8013 "JavaScript Testing in Rails: Fast, Headless, In-Browser. Pick Any Three -- RailsConf 2009 - O'Reilly Conferences, May 04 - 07, 2009, Las Vegas, NV")
 
 Our talk is on Tuesday, May 5 at 1:50 PM in Ballroom B.  
