@@ -14,7 +14,8 @@ So you've taken your project to 100% [code coverage](http://jasonrudolph.com/blo
 
 Just achieving 100% code coverage is the easy part.  Making it mean something: that's where the real value kicks in.  Consider the ease with which we can get to 100% line coverage on the following code (generated using [Rails 2.1 scaffolding](http://github.com/rails/rails/tree/71528b1825ce5184b23d09f923cb72f4073ce8ed/railties/lib/rails_generator/generators/components/scaffold/USAGE "railties/lib/rails_generator/generators/components/scaffold/USAGE at GitHub")).
 
-<pre lang="ruby">class ProductsController < ApplicationController
+{% highlight ruby %}
+class ProductsController < ApplicationController
   # GET /products
   # GET /products.xml
   def index
@@ -28,11 +29,12 @@ Just achieving 100% code coverage is the easy part.  Making it mean something: t
 
   # ... remaining methods omitted
 end
-</pre>
+{% endhighlight %}
 
 In order to ensure that the <code>#index</code> method is performing all its proper duties, we'll define the following "test case."
 
-<pre lang="ruby">require File.dirname(__FILE__) + '/../test_helper'
+{% highlight ruby %}
+require File.dirname(__FILE__) + '/../test_helper'
 
 class ProductsControllerTest < ActionController::TestCase
   def test_should_get_index
@@ -41,7 +43,7 @@ class ProductsControllerTest < ActionController::TestCase
 
   # ... remaining tests omitted
 end
-</pre>
+{% endhighlight %}
 
 We'll use [rcov](http://eigenclass.org/hiki.rb?rcov#l6 "eigenclass - rcov: code coverage for Ruby") to assess the results.
 
@@ -51,7 +53,8 @@ And just like that, we have 100% code coverage for the <code>#index</code> metho
 
 The test code provided by the Rails scaffolding gets us closer to where we want to be.  
 
-<pre lang="ruby">require File.dirname(__FILE__) + '/../test_helper'
+{% highlight ruby %}
+require File.dirname(__FILE__) + '/../test_helper'
 
 class ProductsControllerTest < ActionController::TestCase
   def test_should_get_index
@@ -62,7 +65,7 @@ class ProductsControllerTest < ActionController::TestCase
 
   # ... remaining tests omitted
 end
-</pre>
+{% endhighlight %}
 
 The tests pass, and our code coverage is still at 100%.  At this point we've significantly increased the value of that particular test.  No longer does the code have to crash spectacularly in order to yield a test error.  Instead, exiting the method with anything other than a <code>success</code> response code will result in a test failure.  Similarly, failure to set the <code>@products</code> instance variable will cause the test case to flunk. [4]
 
@@ -70,7 +73,8 @@ The tests pass, and our code coverage is still at 100%.  At this point we've sig
 
 But while we've improved on the initial test case, at best we're really only halfway to where we want to be.  What would our test suite tell us if we were to alter line 9 as follows.
 
-<pre lang="ruby">class ProductsController < ApplicationController
+{% highlight ruby %}
+class ProductsController < ApplicationController
   # GET /products
   # GET /products.xml
   def index
@@ -84,9 +88,10 @@ But while we've improved on the initial test case, at best we're really only hal
 
   # ... remaining methods omitted
 end
-</pre>
+{% endhighlight %}
 
-<pre lang="text">$ ruby products_controller_test.rb 
+<pre>
+$ ruby products_controller_test.rb 
 Loaded suite products_controller_test
 Started
 ........
@@ -99,7 +104,8 @@ Unfortunately, our test suite still blindly gives a *thumbs up*, despite the fac
 
 If we want our automated test suite to ensure that the <code>#index</code> method remains capable of producing an XML-formatted response as our codebase changes over time, we'd need to add a test case to exercise that code. 
 
-<pre lang="ruby">class ProductsControllerTest < ActionController::TestCase
+{% highlight ruby %}
+class ProductsControllerTest < ActionController::TestCase
   def test_should_get_index_formatted_for_html
     get :index
     assert_response :success
@@ -115,7 +121,7 @@ If we want our automated test suite to ensure that the <code>#index</code> metho
 
   # ... remaining tests omitted
 end
-</pre>
+{% endhighlight %}
 
 rcov doesn't reward us with any extra credit for writing this test case, but achieving 100% coverage is not the primary goal of a good test suite. [5] The primary goal is to ensure that the code satisfies the requirements.  If the application really is required to provide an XML-formatted list of products, then we should seriously consider defining a test for that functionality in our test suite. [6]
 

@@ -16,27 +16,30 @@ Suppose we're building an application for an online retailer, and they decide th
 
 It's a straightforward request, so we'll crank out a quick method to encapsulate the logic ...
 
-<pre lang="ruby">MIN_FREE_SHIPPING_PRICE = 25.0   
+{% highlight ruby %}
+MIN_FREE_SHIPPING_PRICE = 25.0   
 
 def free_shipping?(total_order_price)
   total_order_price > MIN_FREE_SHIPPING_PRICE
 end
-</pre>
+{% endhighlight %}
 
 ... and add a few simple tests to make sure we're getting the desired results (all the while being careful to avoid any *over*specification, of course).
 
-<pre lang="ruby">def test_free_shipping_returns_true_for_order_above_min_price
+{% highlight ruby %}
+def test_free_shipping_returns_true_for_order_above_min_price
   assert free_shipping?(MIN_FREE_SHIPPING_PRICE + 1)
 end
 
 def test_free_shipping_returns_false_for_order_below_min_price
   assert !free_shipping?(MIN_FREE_SHIPPING_PRICE - 1)
 end
-</pre>
+{% endhighlight %}
 
 And just like that, we have a passing test suite ... 
 
-<pre lang="text">$ ruby underspecification_test.rb 
+<pre>
+$ ruby underspecification_test.rb 
 Loaded suite underspecification_test
 Started
 ..
@@ -59,14 +62,16 @@ But what about the customer that just spent the last 20 minutes concocting the p
 
 Since we're calling it a "minimum" price, it sure sounds like a $25.00 order *should* qualify for free shipping, so we *should* add a test to specify that behavior.
 
-<pre lang="ruby">def test_free_shipping_returns_true_for_order_equal_to_min_price
+{% highlight ruby %}
+def test_free_shipping_returns_true_for_order_equal_to_min_price
   assert free_shipping?(MIN_FREE_SHIPPING_PRICE)
 end
-</pre>
+{% endhighlight %}
 
 And when we run this test, we should get some good insight into whether we're likely to have that rather obsessive customer hunting us down in his copious free time.
 
-<pre lang="text">$ ruby underspecification_test.rb 
+<pre>
+$ ruby underspecification_test.rb 
 Loaded suite underspecification_test
 Started
 ..F
