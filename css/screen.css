@@ -121,6 +121,7 @@ ul.header-links li {
   padding: 0 .4em;
   margin-top: 1em;
   margin-bottom: 1em;
+  overflow: auto;
 }
 
 #content code {
