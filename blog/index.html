@@ -7,9 +7,10 @@ title: ":jasonrudolph => :blog"
 </a>
 
 {% assign latest_post = site.posts.first %}
+{% capture latest_post_title_with_proper_escaping %}{{ latest_post.title | xml_escape }}{% endcapture %}
 
 <div id="post">
-  <h1><a href="{{latest_post.url}}" title="{{latest_post.pre_title_label}}{{latest_post.title}}">{{latest_post.title}}</a></h1>
+  <h1><a href="{{ latest_post.url }}" title="{{ latest_post.pre_title_label }}{{ latest_post_title_with_proper_escaping }}">{{ latest_post_title_with_proper_escaping }}</a></h1>
 
   {% if latest_post.date != null %}
     <span class="published_on">
@@ -28,8 +29,8 @@ title: ":jasonrudolph => :blog"
   {{ latest_post.content }}
 
   <div class="post-footer">
-    <a href="{{ latest_post.url }}" title="{{ latest_post.pre_title_label }}{{ latest_post.title }}">permalink</a> |
-    <a href="{{ latest_post.url }}/#comments" title="{{ latest_post.pre_title_label }}{{ latest_post.title }} -- Comments">comments</a> | 
+    <a href="{{ latest_post.url }}" title="{{ latest_post.pre_title_label }}{{ latest_post_title_with_proper_escaping | xml_escape }}">permalink</a> |
+    <a href="{{ latest_post.url }}/#comments" title="{{ latest_post.pre_title_label }}{{ latest_post_title_with_proper_escaping }} -- Comments">comments</a> | 
     <a href="http://feeds.feedburner.com/jasonrudolph" title="Jason Rudolph - Atom/RSS Feed">subscribe</a>
   </div>
 </div>
@@ -37,7 +38,7 @@ title: ":jasonrudolph => :blog"
 <div id="archive">
   <h1><a name="archive" href="#archive" title="Blog Archive">Archive</a></h1>
 
-  <p>Now that you've whetted your appetite with the <a href="{{ latest_post.url }}" title="{{ latest_post.pre_title_label }}{{ latest_post.title }}">most recent post</a>, perhaps you'd care to dig into the archive.</p>
+  <p>Now that you've whetted your appetite with the <a href="{{ latest_post.url }}" title="{{ latest_post.pre_title_label }}{{ latest_post_title_with_proper_escaping }}">most recent post</a>, perhaps you'd care to dig into the archive.</p>
 
   <ul class="posts">
     {% for post in site.posts %}

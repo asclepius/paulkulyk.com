@@ -3,7 +3,7 @@ layout: default
 pre_title_label: ":jasonrudolph =&gt; :blog &gt;&gt; "
 ---
 <div id="post">
-  <h1><a href="{{page.url}}" title="{{page.pre_title_label}}{{page.title}}">{{page.title}}</a></h1>
+  <h1><a href="{{ page.url }}" title="{{ page.pre_title_label }}{{ page.title | xml_escape }}">{{page.title}}</a></h1>
 
   {% if page.date != null %}
     <span class="published_on">
