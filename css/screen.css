@@ -135,7 +135,11 @@ ul.header-links li {
   border: none;
 }
 
-#content ul, #post ol {
+#content ol, #post ol {
+  margin-left: 2em;
+}
+
+#content ul, #post ul {
   margin-left: 1.5em;
 }
 
