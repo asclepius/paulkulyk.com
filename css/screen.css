@@ -201,3 +201,16 @@ ul.posts .title {
 #related-posts .posts {
   clear: both;
 }
+
+.post-footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 1px solid #BBBBBB;
+  border-bottom: 1px solid #BBBBBB;
+  font-size: 110%;
+}
+
+#archive h1 {
+  margin-top: 0.8em;
+}
+
