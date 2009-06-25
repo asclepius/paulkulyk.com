@@ -1,2 +1,9 @@
 #!/usr/bin/env bash
-jekyll && rsync -avz --delete _site/ jasonrudolph.com:jasonrudolph.com
+
+function tag_deployment {
+  CURRENT_TIMESTAMP=`date "+%Y%m%d%H%M%S"`
+  TAG_NAME="deployed_$CURRENT_TIMESTAMP"
+  git tag -a -m "Tagging deployment at $CURRENT_TIMESTAMP" $TAG_NAME
+}
+
+jekyll && rsync -avz --delete _site/ jasonrudolph.com:jasonrudolph.com && tag_deployment
