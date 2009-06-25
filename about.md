@@ -1,4 +1,5 @@
 ---
+permalink: about.html
 layout: default
 title: About - Jason Rudolph Dot Com
 ---

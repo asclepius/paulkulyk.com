@@ -1,4 +1,5 @@
 ---
+permalink: gswg_faq.html
 layout: default
 title: FAQ for "Getting Started with Grails" - Jason Rudolph Dot Com
 ---

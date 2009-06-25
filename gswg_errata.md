@@ -1,4 +1,5 @@
 ---
+permalink: gswg_errata.html
 layout: default
 title: Errata for "Getting Started with Grails" - Jason Rudolph Dot Com
 ---
