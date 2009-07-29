@@ -218,3 +218,6 @@ ul.posts .title {
   margin-top: 0.8em;
 }
 
+blockquote p.attribution {
+  text-align:right;
+}
