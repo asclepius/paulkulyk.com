@@ -63,6 +63,22 @@ blockquote {
   padding: 10px;
 }
 
+table {
+	border: 0;
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+td, th {
+	padding: 7px;
+	border-bottom: solid 1px #ddd;
+}
+
+th {
+	font-weight: bold;
+	border-bottom: solid 2px #ccc;	
+}
+
 #header {
   padding-top: .8em;
 }
@@ -232,4 +248,21 @@ blockquote p.attribution {
   background: url(/images/relevance-corner-badge.png) no-repeat;
   text-indent: -999em;
   text-decoration: none;
+}
+
+.events td {
+  vertical-align: text-top;
+}
+
+.events th.event {
+  width: 40%;
+}
+
+td span.event-title {
+  font-weight: bold;
+	display: block;
+}
+
+td span.event-date {
+  font-size: 85%;
 }
