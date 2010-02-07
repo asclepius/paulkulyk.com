@@ -5,6 +5,18 @@ title: Errata for "Getting Started with Grails" - Jason Rudolph Dot Com
 ---
 # Getting Started with Grails - Errata
 
+## Second Edition (February 2010)
+
+![Getting Started With Grails, Second Edition](/images/getting-started-with-grails-v2-header.jpg)
+
+For the Second Edition of the book, please [report any errata via the GitHub Issues page](http://github.com/scottdavis99/gswg-v2/issues "Errata for Getting Started With Grails, Second Edition").
+
+----
+
+## First Edition (January 2007)
+
+![Getting Started With Grails, First Edition](/images/getting-started-with-grails-header.png)
+
 If you downloaded a copy of <a href="http://www.infoq.com/minibooks/grails">Getting Started with Grails</a> before January 31st, 2007, you're encouraged to <a href="http://www.infoq.com/minibooks/grails">download an updated copy</a>.  Downloads prior to January 31st included a handful of errors that are corrected in the latest copy.
 
 If you observe any issues with the latest copy of the book, please feel free to <a href="mailto:contact@jasonrudolph.com">let us know</a> and we'll happily credit you with the corrections.
