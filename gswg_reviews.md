@@ -3,7 +3,7 @@ permalink: gswg_reviews.html
 layout: default
 title: Reviews for "Getting Started with Grails" - Jason Rudolph Dot Com
 ---
-# Getting Started with Grails - Reviews
+# Getting Started with Grails, First Edition - Reviews
 
 What are people saying about [Getting Started with Grails](http://www.infoq.com/minibooks/grails)?
 
