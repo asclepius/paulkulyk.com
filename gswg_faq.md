@@ -5,6 +5,18 @@ title: FAQ for "Getting Started with Grails" - Jason Rudolph Dot Com
 ---
 # Getting Started with Grails - Frequently Asked Questions
 
+## Second Edition (February 2010)
+
+![Getting Started With Grails, Second Edition](/images/getting-started-with-grails-v2-header.jpg)
+
+For the Second Edition of the book, if any frequently asked questions arise, we'll cover them on the [wiki](http://wiki.github.com/scottdavis99/gswg-v2/ "FAQ for Getting Started With Grails, Second Edition").
+
+----
+
+## First Edition (January 2007)
+
+![Getting Started With Grails, First Edition](/images/getting-started-with-grails-header.png)
+
 **1. Page 7 (Chapter 3 - Hello, Grails!) -- Using Grails 0.4.2, why don't I see the *Welcome to Grails* page when I execute `grails run-app` for the first time?**
 
 Grails 0.4.2 shipped with a bug in the default `index.jsp` page.  To fix the problem, open `racetrack/web-app/index.jsp` and replace line 2...
