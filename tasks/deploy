@@ -6,4 +6,19 @@ function tag_deployment {
   git tag -a -m "Tagging deployment at $CURRENT_TIMESTAMP" $TAG_NAME
 }
 
-jekyll && rsync -avz --delete _site/ jasonrudolph.com:jasonrudolph.com && tag_deployment
+function check_for_pygments {
+  echo "Checking for pygments"
+  port installed | grep "py25-pygments"
+}
+
+function confirm_prerequisites_or_exit {
+  echo "Checking for prerequisites"
+
+  check_for_pygments
+  if [[ $? -ne "0" ]]; then
+    echo "You must first install pygments via MacPorts"
+    exit 1
+  fi
+}
+
+confirm_prerequisites_or_exit && jekyll && rsync -avz --delete _site/ jasonrudolph.com:jasonrudolph.com && tag_deployment
