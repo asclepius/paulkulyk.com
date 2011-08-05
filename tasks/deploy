@@ -7,7 +7,7 @@ function tag_deployment {
 }
 
 function verify_or_install_pygments {
-  (port installed | grep "py25-pygments") || (echo "Missing pygments. Installing it..." && sudo port install py25-pygments)
+  (yolk --list | grep "Pygments") || (echo "Missing pygments. Installing it..." && sudo easy_install Pygments)
 }
 
 verify_or_install_pygments && jekyll && rsync -avz --delete _site/ jasonrudolph.com:jasonrudolph.com && tag_deployment
