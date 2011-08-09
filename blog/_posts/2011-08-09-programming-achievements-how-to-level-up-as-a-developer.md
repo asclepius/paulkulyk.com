@@ -139,7 +139,7 @@ Feel free to fork it and add more achievements.
 (Make sure they're measurable.) 
 
 Or, fork it and mark off the achievements you've already conquered.
-You might even flag the one that you're currently working on.
+You might even flag the one that you're currently working on. (For example, check out these forks from [Justin Blake](https://gist.github.com/1134309), [Pierre Chapuis](https://gist.github.com/1134276), and [Yann Esposito](https://gist.github.com/1134044).)
 
 Or just sound off in the comments:
 What experiences have made you a better developer?
@@ -159,6 +159,8 @@ And even better still, share them with someone else and see how your learnings c
 [C] Forth is essentially its own paradigm.
 
 [D] This quote comes to mind: "Whoever teaches learns in the act of teaching ..." — Paulo Freire
+
+**Updated 8/9/2011 4:32pm UTC** - Added links to example forks of the achievement list.
 
 --
 
