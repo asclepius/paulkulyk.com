@@ -102,7 +102,7 @@ In [Waltzing with Bears](http://amazon.com/dp/0932633609 "Amazon.com: Waltzing W
 
 ----
 
-This [series](http://jasonrudolph.com/blog/testing-anti-patterns-how-to-fail-with-100-test-coverage/ "jasonrudolph.com/blog - Testing Anti-Patterns") is taken from the [How To Fail With 100% Test Coverage](http://blog.thinkrelevance.com/2008/5/23/how-to-fail-with-100-test-coverage "Relevance Blog : How To Fail With 100% Test Coverage") talk. Check the [schedule](http://thinkrelevance.com/events "Relevance: Events") for a talk near you.
+This post is part of the [Testing Anti-Patterns series](http://jasonrudolph.com/blog/testing-anti-patterns-how-to-fail-with-100-test-coverage/ "jasonrudolph.com/blog - Testing Anti-Patterns"): a series of essays taken from a conference talk titled, [How To Fail With 100% Test Coverage](http://blog.thinkrelevance.com/2008/5/23/how-to-fail-with-100-test-coverage "Relevance Blog : How To Fail With 100% Test Coverage").
 
 --
 
