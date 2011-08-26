@@ -1,13 +1,13 @@
 ---
 layout: default
-pre_title_label: ":jasonrudolph =&gt; :blog &gt;&gt; "
+post_title_label: " [jasonrudolph.com]"
 ---
 <a href="http://feeds.feedburner.com/jasonrudolph" title="Jason Rudolph - Atom/RSS Feed">
   <img src="/images/rss-icon-traditional-32.png" alt="RSS" style="float: right;"/>
 </a>
 
 <div id="post">
-  <h1><a href="{{ page.url }}" title="{{ page.pre_title_label }}{{ page.title | xml_escape }}">{{page.title}}</a></h1>
+  <h1><a href="{{ page.url }}" title="{{ page.title | xml_escape }}{{ page.post_title_label }}">{{page.title}}</a></h1>
 
   {% if page.date != null %}
     <span class="published_on">
