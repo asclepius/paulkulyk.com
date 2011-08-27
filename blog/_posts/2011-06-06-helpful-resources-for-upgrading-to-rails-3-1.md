@@ -25,20 +25,23 @@ Still here?  Well, I'm guessing that means you want to spend a bit more time wra
 ### The Big Picture
 
 * [Rails 3.1 RC 1 Announcement and Overview (DHH)](http://weblog.rubyonrails.org/2011/5/22/rails-3-1-release-candidate "Riding Rails: Rails 3.1: Release candidate")
-* [Rails 3.1 Overview (RailsCasts)](http://railscasts.com/episodes/265-rails-3-1-overview "RailsCasts - Rails 3.1 Overview")
+* [Rails 3.1 Overview (RailsCasts)](http://railscasts.com/episodes/265-rails-3-1-overview "RailsCasts - #265 Rails 3.1 Overview")
 * [Changelog between 3.0 and 3.1 (Ryan Bates)](https://gist.github.com/958283 "Gist (from Ryan Bates) cataloging the changes between Rails 3.0 and Rails 3.1 beta")
 
 ### Individual Features
 
-* [The Asset Pipeline and Our Post-Modern, Hybrid, Javascript Future (DHH's Keynote at RailsConf 2011)](http://www.youtube.com/watch?v=cGdCI2HhfAU "RailsConf 2011, David Heinemeier Hansson Keynote - The Asset Pipeline and Our Post-Modern, Hybrid, Javascript Future")
+* Asset Pipeline
+  * [Asset Pipeline Documentation (RailsGuides)](http://ryanbigg.com/guides/asset_pipeline.html "Ruby on Rails Guides: Asset Pipeline")
+  * [The Asset Pipeline and Our Post-Modern, Hybrid, Javascript Future (DHH's Keynote at RailsConf 2011)](http://www.youtube.com/watch?v=cGdCI2HhfAU "RailsConf 2011, David Heinemeier Hansson Keynote - The Asset Pipeline and Our Post-Modern, Hybrid, Javascript Future")
+  * [Understanding the Asset Pipeline (RailsCasts)](http://railscasts.com/episodes/279-understanding-the-asset-pipeline "RailsCasts - #279 Understanding the Asset Pipeline")
 * HTTP Streaming
   * [Why HTTP Streaming? (Xavier Noria)](http://weblog.rubyonrails.org/2011/4/18/why-http-streaming "Riding Rails: Why HTTP Streaming?")
-  * [HTTP Streaming (RailsCasts)](http://railscasts.com/episodes/266-http-streaming "RailsCasts - HTTP Streaming")
+  * [HTTP Streaming (RailsCasts)](http://railscasts.com/episodes/266-http-streaming "RailsCasts - #266 HTTP Streaming")
 * CoffeeScript
-  * [CoffeeScript Basics (RailsCasts)](http://railscasts.com/episodes/267-coffeescript-basics "RailsCasts - CoffeeScript Basics")
+  * [CoffeeScript Basics (RailsCasts)](http://railscasts.com/episodes/267-coffeescript-basics "RailsCasts - #267 CoffeeScript Basics")
   * [Official CoffeeScript Documentation (coffeescript.org)](http://coffeescript.org "CoffeeScript")
 * Sass
-  * [Sass Basics (RailsCasts)](http://railscasts.com/episodes/268-sass-basics "RailsCasts - Sass Basics")
+  * [Sass Basics (RailsCasts)](http://railscasts.com/episodes/268-sass-basics "RailsCasts - #268 Sass Basics")
   * [Official Sass Documentation (sass-lang.com)](http://sass-lang.com/ "Sass - Syntactically Awesome Stylesheets")
 * [Reversible Migrations (Rohit Arondekar)](http://edgerails.info/articles/what-s-new-in-edge-rails/2011/05/06/reversible-migrations/index.html "Edge Rails.info :: Reversible Migrations")
 * [jQuery as the New Default JavaScript Library (Xavier Noria)](http://weblog.rubyonrails.org/2011/4/21/jquery-new-default "Riding Rails: jQuery: New Default")
@@ -47,3 +50,7 @@ Still here?  Well, I'm guessing that means you want to spend a bit more time wra
 ## Party On, Dudes
 
 If Rails 3.1 has piqued your curiosity, it's definitely worth a quick spike to try out an upgrade.  Just create a branch and give it a shot.  After all, you wrote all those tests for a reason, right?  Take Rails 3.1 for a spin, and let your test suite tell you where things need to be patched up.  What have you got to lose?  [Party on, Dudes!](http://www.youtube.com/watch?v=WVXGC896Jdw "YouTube - Bill and Ted's Excellent Adventure - The Future Council")
+
+--
+
+**Updated 8/27/2011** - Added links to the asset pipeline docs from Ryan Biggs and the new RailsCasts episode on "Understanding the Asset Pipeline."
