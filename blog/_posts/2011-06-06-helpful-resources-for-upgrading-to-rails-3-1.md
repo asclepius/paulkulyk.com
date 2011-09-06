@@ -25,7 +25,8 @@ Still here?  Well, I'm guessing that means you want to spend a bit more time wra
 
 ### The Big Picture
 
-* [Rails 3.1 RC 1 Announcement and Overview (DHH)](http://weblog.rubyonrails.org/2011/5/22/rails-3-1-release-candidate "Riding Rails: Rails 3.1: Release candidate")
+* [Rails 3.1 Release Notes (RailsGuides)](http://guides.rubyonrails.org/3_1_release_notes.html "Ruby on Rails Guides: Ruby on Rails 3.1 Release Notes")
+* [Rails 3.1 Announcement and Overview (Aaron Patterson)](http://weblog.rubyonrails.org/2011/8/31/rails-3-1-0-has-been-released "Riding Rails: Rails 3.1.0 has been released!")
 * [Rails 3.1 Overview (RailsCasts)](http://railscasts.com/episodes/265-rails-3-1-overview "RailsCasts - #265 Rails 3.1 Overview")
 * [Changelog between 3.0 and 3.1 (Ryan Bates)](https://gist.github.com/958283 "Gist (from Ryan Bates) cataloging the changes between Rails 3.0 and Rails 3.1 beta")
 
@@ -55,4 +56,5 @@ If Rails 3.1 has piqued your curiosity, it's definitely worth a quick spike to t
 --
 
 **Updated 8/27/2011** - Added links to the asset pipeline docs from Ryan Biggs and the new RailsCasts episode on "Understanding the Asset Pipeline."
-**Updated 9/6/2011** - Added link to the new RailsCasts episode on "Upgrading to Rails 3.1."
+
+**Updated 9/6/2011** - Added link to the new RailsCasts episode on "Upgrading to Rails 3.1."  Added link to the official Rails 3.1.0 release announcement and release notes.
