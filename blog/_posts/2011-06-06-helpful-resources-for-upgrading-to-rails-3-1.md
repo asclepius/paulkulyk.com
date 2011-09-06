@@ -31,7 +31,7 @@ Still here?  Well, I'm guessing that means you want to spend a bit more time wra
 ### Individual Features
 
 * Asset Pipeline
-  * [Asset Pipeline Documentation (RailsGuides)](http://ryanbigg.com/guides/asset_pipeline.html "Ruby on Rails Guides: Asset Pipeline")
+  * [Asset Pipeline Documentation (RailsGuides)](http://guides.rubyonrails.org/asset_pipeline.html "Ruby on Rails Guides: Asset Pipeline")
   * [The Asset Pipeline and Our Post-Modern, Hybrid, Javascript Future (DHH's Keynote at RailsConf 2011)](http://www.youtube.com/watch?v=cGdCI2HhfAU "RailsConf 2011, David Heinemeier Hansson Keynote - The Asset Pipeline and Our Post-Modern, Hybrid, Javascript Future")
   * [Understanding the Asset Pipeline (RailsCasts)](http://railscasts.com/episodes/279-understanding-the-asset-pipeline "RailsCasts - #279 Understanding the Asset Pipeline")
 * HTTP Streaming
