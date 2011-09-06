@@ -15,6 +15,7 @@ I upgraded a Rails 3.0 app to 3.1 this past weekend, and all in all, it was a pr
 * [How to Upgrade to Rails 3.1.0 (David Rice)](http://davidjrice.co.uk/2011/05/25/how-to-upgrade-a-rails-application-to-version-3-1-0.html "David Rice - How to Upgrade to Rails 3.1.0")
 * [Migrating My Blog over to Rails 3.1 Beta (Fabio Akita)](http://www.akitaonrails.com/2011/05/31/migrating-my-blog-over-to-rails-3-1-beta "Migrating my blog over to Rails 3.1 beta - AkitaOnRails.com")
 * [Deploying a Rails 3.1 Application to Production (Richard Taylor)](https://moocode.com/posts/1-deploying-a-rails-3-1-application-to-production)
+* [Upgrading to Rails 3.1 (RailsCasts)](http://railscasts.com/episodes/282-upgrading-to-rails-3-1 "RailsCasts - #282 Upgrading to Rails 3.1")
 
 ## More Rails 3.1 Resources
 
@@ -54,3 +55,4 @@ If Rails 3.1 has piqued your curiosity, it's definitely worth a quick spike to t
 --
 
 **Updated 8/27/2011** - Added links to the asset pipeline docs from Ryan Biggs and the new RailsCasts episode on "Understanding the Asset Pipeline."
+**Updated 9/6/2011** - Added link to the new RailsCasts episode on "Upgrading to Rails 3.1."
