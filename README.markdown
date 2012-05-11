@@ -14,3 +14,12 @@ The Relevance logo is the trademark of [Relevance, Inc.](http://thinkrelevance.c
 
 * [Jekyll](http://wiki.github.com/mojombo/jekyll/install)
 * [Pygments](http://wiki.github.com/mojombo/jekyll/install)
+
+## Working Around [Jekyll Issue #363](https://github.com/mojombo/jekyll/issues/363) 
+
+As of v0.11.0, Jekyll no longer includes dotfiles (including .htaccess).
+This issue still exists in v0.11.2.
+
+Until a new version (e.g., v0.11.3, v0.12.0, or v1.0.0) is released, use
+a locally-built version of Jekyll which includes the fix for issue #363.
+
