@@ -238,18 +238,6 @@ blockquote p.attribution {
   text-align:right;
 }
 
-#relevance-corner-badge {
-  position: absolute;
-  right: 0;
-  top: 0;
-  display: block;
-  height: 149px;
-  width: 149px;
-  background: url(/images/relevance-corner-badge.png) no-repeat;
-  text-indent: -999em;
-  text-decoration: none;
-}
-
 .events td {
   vertical-align: text-top;
 }
