@@ -1,5 +1,5 @@
 ---
-title: "ClojureScript Experience Report — Resources"
+title: "ClojureScript Experience Report: Resources"
 layout: post
 tags:
 - clojurescript
