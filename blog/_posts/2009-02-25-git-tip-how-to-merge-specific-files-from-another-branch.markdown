@@ -55,6 +55,8 @@ We can simply give <code>git checkout</code> the name of the feature branch [1] 
 <br/>
 [Boom.  Roasted.](http://www.youtube.com/watch?v=IQD95EEJxg4 "YouTube - Michael Scott - Boom Roasted")
 
+----
+
 ## Notes
 
 [1] <code>git checkout</code> actually accepts any tree-ish here. So you're not limited to grabbing code from the current tip of a branch; if needed, you can also check out files using a tag or the SHA for a past commit.

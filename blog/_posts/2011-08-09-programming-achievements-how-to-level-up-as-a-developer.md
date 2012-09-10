@@ -145,6 +145,8 @@ Or just sound off in the comments:
 What experiences have made you a better developer?
 And what achievement will you unlock next?
 
+----
+
 ## Notes
 
 [A] I can't emphasize Step 4 enough.

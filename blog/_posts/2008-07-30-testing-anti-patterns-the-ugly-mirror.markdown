@@ -59,6 +59,8 @@ When we improve the test to focus on the end result, we can look at the test and
 
 Whether it's strings, dates, timestamps, or numeric calculations, [any time we can assert on a literal value, our test will be better off because of it](http://blog.jayfields.com/2008/02/testing-expect-literals.html "Jay Fields' Thoughts: Testing: Expect literals"). [3]  The less logic that's in our assertion, the fewer chances we have for that logic to be wrong, and the less logic we have to dig through to grok what's being tested in the first place.
 
+----
+
 ## Notes
 
 [1] And if you're writing a library or framework, the tests may be a win for the users (or potential users) of your code as well.  My colleague [Muness Alrubaie](http://muness.blogspot.com "Mundane Essays") is often seen skipping right over the docs and heading straight for the tests when he wants to check out some new open source code.  (After all, assuming they pass, the tests don't lie.)  And if there are no tests, or if the tests fail to cleanly express the underlying functionality, you can rest assured that he won't be looking at that project for long.

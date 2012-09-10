@@ -174,6 +174,8 @@ While this is by no means an exhaustive list of coverage types, it's representat
 
 Code coverage analysis is an essential tool in evaluating the quality of your test suite.  But as with any metric, it shouldn't be used in isolation.  In [*How to Misuse Code Coverage*](http://web.archive.org/web/20070331053330/www.testing.com/writings/coverage.pdf), Brian Marick reminds us that "[coverage tools] are only helpful if they're used to <em>enhance</em> thought, not <em>replace</em> it." [6]  And in a series of upcoming posts, I'll explore that idea further through discussion of several testing anti-patterns observed in real-world projects.
 
+----
+
 ## Notes
 
 [1] Despite this shortcoming in line coverage analysis, I don't recommend expanding code onto multiple lines just to get a more thorough coverage report.  Instead, understand the capabilities and limitations of your coverage analysis and keep that information in mind during peer code reviews and quality assurance testing.  In [*What is Wrong with Statement Coverage*](http://www.bullseye.com/statementCoverage.html "What is Wrong with Statement Coverage"), Steve Cornett offers additional code samples illustrating scenarios where 100% line coverage could give you a false sense of security if used in isolation.

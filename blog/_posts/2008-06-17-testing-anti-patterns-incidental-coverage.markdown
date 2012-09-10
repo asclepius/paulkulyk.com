@@ -135,6 +135,8 @@ If your goal is to achieve 100% coverage, then incidental coverage is your frien
 
 If your goal is instead to develop a comprehensive test suite to A) validate your application's functionality and B) ensure that you build just enough software, then test-driven development (TDD) is your friend (as are peer reviews and/or pair programming).  And subsequently,  you'll enjoy the nice side effect of 100% code coverage, because you'll only build the code necessary to satisfy your tests.
 
+----
+
 ## Notes
 
 [1] Sure, you know that the line executes without causing the application to crash (at least for *this* set of inputs), but does a lack of crashing really constitute success?  Not likely.

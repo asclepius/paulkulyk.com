@@ -216,6 +216,8 @@ In order to make effective use of coverage analysis, it's important for us to un
 
 Invisible code is hidden technical debt, but the sooner you expose it, the sooner you can start to pay it down.
 
+----
+
 ## Notes
 
 [1]  In past posts in this series, I've advocated test-driven development (TDD) as means for combatting the various testing anti-patterns. Invisible code is no exception.  While this post is geared more toward *uncovering* invisible code so that we can give it the testing it deserves, developing test-first is the best bet for *preventing* invisible code in the first place.

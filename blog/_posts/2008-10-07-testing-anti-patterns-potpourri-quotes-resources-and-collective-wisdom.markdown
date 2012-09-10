@@ -76,6 +76,8 @@ If there's any one theme that we can observe across this collection of ideas, it
 
 It's only that critical thought that will tell us when it would be more cost-effective to use one flavor of testing over another.  It's only that critical thought that will uncover implied requirements in a user story or prompt us to ask about hidden assumptions that might be lingering in a given use case.  It's only that critical thought that will recognize when the pattern that's worked for us 95% of the time simply isn't appropriate for the particular scenario we've just come across.  To forgo that critical thought in search of a silver bullet, that's the ultimate testing anti-pattern.
 
+----
+
 ## Notes
 
 [1] Luke notes that the specific overlaps in the diagram are admittedly arbitrary.  The specific areas of overlap are insignificant for our purposes here.  Noteworthy is that while there is some overlap between these forms of testing, each one tends to identify at least some defects that are less likely to be identified by other forms of testing.  (Diagram used with permission.)

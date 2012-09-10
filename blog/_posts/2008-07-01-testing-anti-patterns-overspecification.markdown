@@ -150,6 +150,8 @@ By using an assertion like [Shoulda's](http://www.thoughtbot.com/projects/should
 
 Overspecification comes in many flavors, and the examples above in no way represent a comprehensive list.  As developers, we frequently strive to write as little code as possible to accomplish the task at hand.  When it comes to writing tests, we should very much keep that goal in mind as well.  Good tests communicate the essence of the scenario being tested and nothing more.  While I doubt a project will ever suffer from too much testing, it can certainly suffer from tests that specify too much.
 
+----
+
 ## Notes
 
 [1] If this test seems absurd to you, good!  Your ability to detect this type of overspecification will serve you well.

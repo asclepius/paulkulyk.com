@@ -96,6 +96,8 @@ A green test suite and high code coverage only means that we've satisfied the fu
 
 In [Waltzing with Bears](http://amazon.com/dp/0932633609 "Amazon.com: Waltzing With Bears: Managing Risk on Software Projects: Tom DeMarco, Timothy Lister"), Tom DeMarco and Timothy Lister remind us that "while it's possible to specify a product ambiguously, it is not possible to build a product ambiguously."  The applications we build are always doing *something* in the corner cases.  In the exception cases.  But are they doing the *right* thing.  And without proper tests (i.e., executable specifications), how can we be sure?
 
+----
+
 ## Notes
 
 [1] If you recall from our [recent discussion on code coverage types](http://jasonrudolph.com/blog/2008/06/10/a-brief-discussion-of-code-coverage-types "jasonrudolph.com/blog -- A Brief Discussion of Code Coverage Types"), this is the part where you ask, "Exactly what *kind* of coverage are we talking about here?"  Well, despite the fact that rcov only reports line coverage analysis, we can still deduce fairly quickly that this particular code has 100% line coverage, 100% branch coverage, and 100% path coverage.
