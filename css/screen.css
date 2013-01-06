@@ -82,6 +82,7 @@ th {
 a.nav-icon {
   color: #333;
   text-decoration: none;
+  display: inline-block;
 }
 
 a.nav-icon:hover {
@@ -172,29 +173,36 @@ a.nav-icon:hover {
 }
 
 #copyright a {
-  display: inline-block;
   font-size: 200%;
 }
 
 #homepage {
+  position: relative;
   width: 780px;
 }
 
 #arenas-of-awesome {
   position: absolute;
-  top: 48%;
-  text-align: center;
+  height: 100%;
+  display: table;
+}
+
+#arenas-of-awesome ul {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 #arenas-of-awesome li {
   list-style-type: none;
   float: left;
-  padding: 0 2em;
+  margin-left: 104px;
+  font-size: 72px;
+  display: table-cell;
+  vertical-align: middle;
 }
 
-#arenas-of-awesome a {
-  font-size: 72px;
-  margin-right: 26px;
+#arenas-of-awesome li:first-child {
+  margin-left: 0;
 }
 
 .published_on {
