@@ -7,7 +7,7 @@ I use [Jekyll](http://github.com/mojombo/jekyll) to transform the content of thi
 
 The content of the site (i.e., blog posts and page content) is licensed under a [Creative Commons Attribution License](http://creativecommons.org/licenses/by/3.0/us/): you may use it, but you must give attribution.
 
-The icons are from the [IcoMoon icon set](http://icomoon.io/) and are licensed under a [Creative Commons Attribution-ShareAlike License](http://creativecommons.org/licenses/by-sa/3.0/).
+The **icons** are from the [IcoMoon icon set](http://icomoon.io/) and are licensed as described at [http://icomoon.io/#icons#license](http://icomoon.io/#icons#license).
 
 You may feel free to reuse any part of the structure, design, and layout of this site; it is all licensed under the MIT License.
 
