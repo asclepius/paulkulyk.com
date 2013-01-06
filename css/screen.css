@@ -171,9 +171,9 @@ a.nav-icon:hover {
   padding: .2em;
 }
 
-#copyright {
-  font-size: 70%;
-  color: #888888;
+#copyright a {
+  display: inline-block;
+  font-size: 200%;
 }
 
 #homepage {
