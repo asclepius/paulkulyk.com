@@ -11,8 +11,6 @@ The **icons** are from the [IcoMoon icon set](http://icomoon.io/) and are licens
 
 The **structure, design, and layout** of the site are licensed under the [MIT License](http://opensource.org/licenses/MIT).
 
-The Relevance logo is the trademark of [Relevance, Inc.](http://thinkrelevance.com), is copyrighted by Relevance, Inc., and may not be reused.
-
 # Dependencies
 
 * [Jekyll](http://wiki.github.com/mojombo/jekyll/install)
