@@ -87,29 +87,25 @@ th {
   list-style-type: none;
 }
 
-.header-section { 
+#header li {
   float: left;
 }
 
-.header-section.search {
+#header li.search {
   float: right;
   text-align: right;
 }
 
-.header-icon {
-  float: left;
+#header a {
+  color: #333;
+  font-size: 36px;
+  text-decoration: none;
+  margin-right: 61px;
 }
 
-ul.header-links {
-  float: left;
-  padding-left: .6em;
-  padding-right: 3em;
-  text-align: left;
-  font-size: .8em;
-}
-
-ul.header-links li {
-  padding-bottom: 1em;
+#header a:hover {
+  color: #268ED4;
+  text-decoration: none;
 }
 
 #content {
