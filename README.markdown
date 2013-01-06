@@ -1,6 +1,7 @@
 # About
 
-This is the data for Jason Rudolph's [blog](http://jasonrudolph.com/blog "http://jasonrudolph.com/blog") and [website](http://jasonrudolph.com "http://jasonrudolph.com").  It is automatically transformed by [Jekyll](http://github.com/mojombo/jekyll) into a static site whenever I push this repository to GitHub.
+This is the data for Jason Rudolph's [blog](http://jasonrudolph.com/blog "http://jasonrudolph.com/blog") and [website](http://jasonrudolph.com "http://jasonrudolph.com").
+I use [Jekyll](http://github.com/mojombo/jekyll) to transform the content of this repo into the static site hosted at [jasonrudolph.com](http://jasonrudolph.com "http://jasonrudolph.com").
 
 # License
 
