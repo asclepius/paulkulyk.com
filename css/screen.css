@@ -100,16 +100,32 @@ a.nav-icon:hover {
 
 #header li {
   float: left;
-}
-
-#header li.search {
-  float: right;
-  text-align: right;
-}
-
-#header a {
   font-size: 36px;
-  margin-right: 61px;
+  margin-left: 84px;
+}
+
+#header li:first-child {
+  margin-left: 0;
+}
+
+#search {
+  width: 100%;
+  display: table;
+  margin-bottom: 12px;
+}
+
+#search form {
+  margin-top: 12px;
+}
+
+#search input[type=text] {
+  float: left;
+  width: 78%;
+}
+
+#search input[type=submit] {
+  float: right;
+  width: 20%;
 }
 
 #content {
