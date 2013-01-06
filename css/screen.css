@@ -79,6 +79,16 @@ th {
 	border-bottom: solid 2px #ccc;	
 }
 
+a.nav-icon {
+  color: #333;
+  text-decoration: none;
+}
+
+a.nav-icon:hover {
+  color: #268ED4;
+  text-decoration: none;
+}
+
 #header {
   padding-top: .8em;
 }
@@ -97,15 +107,8 @@ th {
 }
 
 #header a {
-  color: #333;
   font-size: 36px;
-  text-decoration: none;
   margin-right: 61px;
-}
-
-#header a:hover {
-  color: #268ED4;
-  text-decoration: none;
 }
 
 #content {
@@ -178,8 +181,9 @@ th {
 }
 
 #arenas-of-awesome {
+  position: absolute;
+  top: 48%;
   text-align: center;
-  padding-top: 100px;
 }
 
 #arenas-of-awesome li {
@@ -188,8 +192,9 @@ th {
   padding: 0 2em;
 }
 
-#arenas-of-awesome img.mega {
-  padding-bottom: 1em;
+#arenas-of-awesome a {
+  font-size: 72px;
+  margin-right: 26px;
 }
 
 .published_on {
