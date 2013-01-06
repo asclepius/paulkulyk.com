@@ -19,7 +19,7 @@ For the Second Edition of the book, please [report any errata via the GitHub Iss
 
 If you downloaded a copy of <a href="http://www.infoq.com/minibooks/grails">Getting Started with Grails</a> before January 31st, 2007, you're encouraged to <a href="http://www.infoq.com/minibooks/grails">download an updated copy</a>.  Downloads prior to January 31st included a handful of errors that are corrected in the latest copy.
 
-If you observe any issues with the latest copy of the book, please feel free to <a href="mailto:contact@jasonrudolph.com">let us know</a> and we'll happily credit you with the corrections.
+If you observe any issues with the latest copy of the book, please feel free to <a href="mailto:jason@jasonrudolph.com">let me know</a> and I'll happily credit you with the corrections.
 
 ## Page vi (Foreword)
 

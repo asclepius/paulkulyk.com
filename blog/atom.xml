@@ -12,7 +12,7 @@ layout: nil
  <id>http://jasonrudolph.com/</id>
  <author>
    <name>Jason Rudolph</name>
-   <email>contact@jasonrudolph.com</email>
+   <email>jason@jasonrudolph.com</email>
  </author>
 
  {% for post in site.posts limit:10 %}
