@@ -79,13 +79,13 @@ th {
 	border-bottom: solid 2px #ccc;	
 }
 
-a.nav-icon {
+a.core-nav {
   color: #333;
   text-decoration: none;
   display: inline-block;
 }
 
-a.nav-icon:hover {
+a.core-nav:hover {
   color: #268ED4;
   text-decoration: none;
 }
