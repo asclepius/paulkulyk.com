@@ -199,13 +199,14 @@ a.nav-icon:hover {
 
 #arenas-of-awesome {
   position: absolute;
-  height: 100%;
-  display: table;
+  top: 50%;
 }
 
 #arenas-of-awesome ul {
-  display: table-cell;
-  vertical-align: middle;
+  position: absolute;
+  top: -50px;
+  width: 780px;
+  height: 100px;
 }
 
 #arenas-of-awesome li {
@@ -213,8 +214,6 @@ a.nav-icon:hover {
   float: left;
   margin-left: 104px;
   font-size: 72px;
-  display: table-cell;
-  vertical-align: middle;
 }
 
 #arenas-of-awesome li:first-child {
