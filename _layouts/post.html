@@ -25,11 +25,10 @@ post_title_label: " [jasonrudolph.com]"
 <hr />
 
 <div id="related-posts">
-  <a href="http://feeds.feedburner.com/jasonrudolph" title="Jason Rudolph - Atom/RSS Feed">
-    <img src="/images/rss-icon-traditional-16.png" alt="RSS" class="inline-left"/>
-  </a>
-
-  <h2>Other Posts You Might Enjoy</h2>
+  <h2>
+    <a class="icon-feed-2" href="http://feeds.feedburner.com/jasonrudolph" title="Jason Rudolph - Atom/RSS Feed"></a>
+    Other Posts You Might Enjoy
+  </h2>
   <ul class="posts">
     {% for post in site.posts %}
       {% if post.url == "/blog/2011/08/09/programming-achievements-how-to-level-up-as-a-developer/" or post.url == "/blog/2009/05/27/git-up-10-reasons-to-upgrade-your-old-git-installation/" or post.url == "/blog/2008/06/17/testing-anti-patterns-incidental-coverage/" or post.url == "/blog/2011/06/06/helpful-resources-for-upgrading-to-rails-3-1/" %}

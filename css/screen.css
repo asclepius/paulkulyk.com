@@ -218,6 +218,15 @@ ul.posts .title {
   clear: both;
 }
 
+#related-posts h2 a {
+  display: inline-block;
+  color: #F6892C;
+}
+
+#related-posts h2 a {
+  text-decoration: none;
+}
+
 .post-footer {
   padding-top: 15px;
   padding-bottom: 15px;
