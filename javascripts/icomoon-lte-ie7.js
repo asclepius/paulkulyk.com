@@ -3,45 +3,21 @@
 window.onload = function() {
   function addIcon(el, entity) {
     var html = el.innerHTML;
-    el.innerHTML = '<span style="font-family: \'icomoon\'">' + entity + '</span>' + html;
+    el.innerHTML = '<span style="font-family: \'icomoon-ultimate\'">' + entity + '</span>' + html;
   }
   var icons = {
-      'icon-twitter' : '&#xe000;',
-      'icon-github' : '&#xe004;',
-      'icon-github-2' : '&#xe005;',
-      'icon-github-3' : '&#xe006;',
-      'icon-git' : '&#xe007;',
-      'icon-github-4' : '&#xe008;',
-      'icon-feed' : '&#xe009;',
-      'icon-feed-2' : '&#xe00a;',
-      'icon-google-plus' : '&#xe010;',
-      'icon-google-plus-2' : '&#xe011;',
-      'icon-gplus' : '&#xe012;',
-      'icon-linkedin' : '&#xe013;',
-      'icon-linkedin-2' : '&#xe014;',
-      'icon-books' : '&#xe002;',
-      'icon-twitter-2' : '&#xe003;',
-      'icon-twitter-3' : '&#xe001;',
-      'icon-feed-3' : '&#xe00b;',
-      'icon-pencil' : '&#xe00c;',
-      'icon-pencil-2' : '&#xe00d;',
-      'icon-pencil-3' : '&#xe00e;',
-      'icon-pencil-4' : '&#xe00f;',
-      'icon-pencil-5' : '&#xe015;',
-      'icon-pen' : '&#xe016;',
-      'icon-pen-2' : '&#xe017;',
-      'icon-pen-3' : '&#xe018;',
-      'icon-blog' : '&#xe019;',
-      'icon-blog-2' : '&#xe01a;',
-      'icon-pen-4' : '&#xe01b;',
-      'icon-feather' : '&#xe01c;',
-      'icon-info' : '&#xe01d;',
-      'icon-info-2' : '&#xe01e;',
-      'icon-search' : '&#xe01f;',
-      'icon-search-2' : '&#xe020;',
-      'icon-search-3' : '&#xe021;',
-      'icon-search-4' : '&#xe022;',
-      'icon-cc' : '&#xe023;'
+      'icon-info' : '&#xe000;',
+      'icon-info-2' : '&#xe001;',
+      'icon-quill' : '&#xe002;',
+      'icon-quill-2' : '&#xe003;',
+      'icon-pen' : '&#xe004;',
+      'icon-feed' : '&#xe005;',
+      'icon-feed-2' : '&#xe006;',
+      'icon-feed-3' : '&#xe007;',
+      'icon-twitter' : '&#xe008;',
+      'icon-github' : '&#xe009;',
+      'icon-cc' : '&#xe00a;',
+      'icon-search' : '&#xe00b;'
     },
     els = document.getElementsByTagName('*'),
     i, attr, html, c, el;
@@ -49,6 +25,10 @@ window.onload = function() {
     el = els[i];
     attr = el.getAttribute('data-icon');
     if (attr) {
+      c = icons['icon-' + attr];
+      if (c) {
+        attr = c;
+      }
       addIcon(el, attr);
     }
     c = el.className;
