@@ -5,7 +5,7 @@ title: Reviews for "Getting Started with Grails" - Jason Rudolph Dot Com
 ---
 # Getting Started with Grails, First Edition - Reviews
 
-What are people saying about [Getting Started with Grails](http://www.infoq.com/minibooks/grails)?
+What are people saying about [Getting Started with Grails](http://www.amazon.com/Getting-Started-Grails-Jason-Rudolph/dp/143030782X)?
 
 <blockquote>
   <p>One of my all-time favorite technical books.</p>  

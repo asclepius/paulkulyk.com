@@ -9,7 +9,7 @@ tags:
 - groovy
 - gswg	
 ---
-The [Chinese version](http://www.infoq.com/cn/minibooks/grails "Getting Started with Grails - Chinese Translation") of [*Getting Started with Grails*](http://www.infoq.com/minibooks/grails) made its debut last week.  
+The [Chinese version](http://www.infoq.com/cn/minibooks/grails "Getting Started with Grails - Chinese Translation") of [*Getting Started with Grails*](http://www.amazon.com/Getting-Started-Grails-Jason-Rudolph/dp/143030782X) made its debut last week.  
 
 ![GSwG Chinese Cover](/resources/gswg-chinese-cover.jpg)
 
